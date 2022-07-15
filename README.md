@@ -1,6 +1,6 @@
 [![Vishnu's GitHub Status](https://github-readme-stats.vercel.app/api?username=VisShon&theme=github_dark&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 
-##🙋🏻‍♂️ Hello there, I am Vishnu.
+###🙋🏻‍♂️ Hello there, I am Vishnu.
 
 An enthusiastic, self-motivated, responsible, and experienced team player who can adapt to any challenging situation. With industry experience in Web Development, UI/UX design, and Market Research, and an eagerness to learn.
 
@@ -35,9 +35,10 @@ An enthusiastic, self-motivated, responsible, and experienced team player who ca
 ![](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white)
 ![](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
 ![](https://img.shields.io/badge/-Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white)
-![](https://img.shields.io/badge/-Fusion_360-ba742f)
 
 ### Contact me 📪
 ![linktree](https://img.shields.io/badge/linktree-1de9b6?style=for-the-badge&logo=linktree&logoColor=white) https://linktr.ee/VishnuShon
+
 ![mail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white) vshon447@gmail.com
+
 ![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white) https://www.linkedin.com/in/vishnu-shon-079007202
