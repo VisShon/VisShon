@@ -1,7 +1,7 @@
 
-### 🙋🏻‍♂️ Hello there, I am Vishnu.
+### 🙋🏻‍♂️ Hello there, I am Vishnu a GRAND stack developer.
 
-An enthusiastic, self-motivated, responsible, and experienced team player who can adapt to any challenging situation. With industry experience in Web Development, UI/UX design, and Market Research, and an eagerness to learn.
+Enthusiastic, self-motivated, responsible, and experienced team player who can adapt to any challenging situation. With industry experience in Web Development, UI/UX design, and Market Research, and an eagerness to learn.
 
 ### My Languages 👨🏻‍💻
 ![](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
