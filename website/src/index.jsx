@@ -1,15 +1,30 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import reportWebVitals from './reportWebVitals';
-import Home from './pages/Home';
-import './styles/index.css';
+import ReactDOM from "react-dom/client";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import Home from "./pages/Home";
+import Dashboard from "./pages/Dashboard";
+import Community from "./pages/Community";
+import Project from "./pages/Project";
+import Award from "./pages/Award";
+
+import "./styles/index.css";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-	<React.StrictMode>
-		<Home/>	
-	</React.StrictMode>
-);
+	<BrowserRouter>
 
-reportWebVitals();
+		<Navbar/>
+		<Routes>
+			<Route path="/" element={<Home/>} />
+			<Route path="/dashboard" element={<Dashboard/>} />
+			<Route path="/community/:id" element={<Dashboard/>} />
+			<Route path="/project/:id" element={<Project/>} />
+			<Route path="/award/:id" element={<Award/>} />
+		</Routes>
+		{/* <Footer /> */}
+
+	</BrowserRouter>
+);

@@ -11,10 +11,10 @@ function Tabs() {
 				</a>
 			</div>
 
-			<Link to={'#home'}>Home</Link>
-			<Link to={'#works'}>Works</Link>
-			<Link to={'#projects'}>Projects</Link>
-			<Link to={'mailto:vshon447@gmail.com'}>Dashboard</Link>
+			<Link to={"#home"}>Home</Link>
+			<Link to={"#works"}>Works</Link>
+			<Link to={"#projects"}>Projects</Link>
+			<Link to={"mailto:vshon447@gmail.com"}>Dashboard</Link>
 		</div>
 	)
 }

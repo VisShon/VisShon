@@ -9,8 +9,8 @@ function index() {
 		<div>
 			<div>
 				<Linktree/>
-				<Link to={'/dashboard'}>Dashboard</Link>
-				<Link to={'linktoresume'}>Resume</Link>
+				<Link to={"/dashboard"}></Link>
+				<Link to={"linktoresume"}></Link>
 			</div>
 
 			<Avaibility/>
