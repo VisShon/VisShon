@@ -1,8 +1,23 @@
-import React from 'react'
+import GradientWave from "../components/GradientWave";
+import Title from "../components/Title";
 
 function Home() {
 	return (
-		<div className=' font-luimp'>DEVELOPER</div>
+		<>
+			<div>
+				<h2></h2>
+				<Title/>
+				<GradientWave/>
+			</div>
+
+			<div>
+				<p><b></b></p>
+				<div>
+					<p></p>
+					<p></p>
+				</div>
+			</div>
+		</>
 	)
 }
 
