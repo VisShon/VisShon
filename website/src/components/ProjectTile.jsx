@@ -22,6 +22,10 @@ function ProjectTile() {
 					<p></p>
 					<p></p>
 				</div>
+
+				<Link to={""}>
+					<img/>
+				</Link>
 			</div>
 
 			<div>

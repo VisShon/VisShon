@@ -1,8 +1,19 @@
-import React from "react"
+import DashboardButton from "../components/DashboardButton"
+import ScrollBanner from "../components/ScrollBanner"
 
 function Dashboard() {
 	return (
-		<div>Dashboard</div>
+		<div>
+			<ScrollBanner/>
+			
+			<div>
+				<DashboardButton/>
+				<DashboardButton/>
+				<DashboardButton/>
+				<DashboardButton/>
+				<DashboardButton/>
+			</div>
+		</div>
 	)
 }
 
