@@ -1,5 +1,5 @@
-import TransitionTunnel from "../TransitionTunnel"
-import GooglyEyes from "../GooglyEyes"
+import TransitionTunnel from "../components/TransitionTunnel"
+import GooglyEyes from "../components/GooglyEyes"
 
 function Ethics() {
 	return (

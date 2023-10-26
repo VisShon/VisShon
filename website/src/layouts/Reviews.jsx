@@ -1,6 +1,6 @@
-import Seperator from "../GradientWave/Seperator";
-import Reveiw from "../Reveiw";
-import ScrollBanner from "../ScrollBanner";
+import Seperator from "../components/GradientWave/Seperator";
+import Reveiw from "../components/Reveiw";
+import ScrollBanner from "../components/ScrollBanner";
 
 function Reviews() {
 	return (

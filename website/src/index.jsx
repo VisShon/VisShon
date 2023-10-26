@@ -11,12 +11,14 @@ import Project from "./pages/Project";
 import Award from "./pages/Award";
 
 import "./styles/index.css";
+import Tabs from "./components/Navbar/Tabs";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<BrowserRouter>
 
 		<Navbar/>
+		
 		<Routes>
 			<Route path="/" element={<Home/>} />
 			<Route path="/dashboard" element={<Dashboard/>} />
@@ -24,7 +26,9 @@ root.render(
 			<Route path="/project/:id" element={<Project/>} />
 			<Route path="/award/:id" element={<Award/>} />
 		</Routes>
-		{/* <Footer /> */}
+
+		<Tabs/>
+		<Footer />
 
 	</BrowserRouter>
 );

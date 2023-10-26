@@ -1,5 +1,5 @@
-import ProjectTile from "../ProjectTile"
-import ProjectCard from "../ProjectCard"
+import ProjectTile from "../components/ProjectTile"
+import ProjectCard from "../components/ProjectCard"
 
 function Projects() {
 

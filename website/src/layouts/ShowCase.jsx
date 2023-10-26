@@ -1,4 +1,4 @@
-import Seperator from "../GradientWave/Seperator"
+import Seperator from "../components/GradientWave/Seperator"
 
 function ShowCase() {
 	return (

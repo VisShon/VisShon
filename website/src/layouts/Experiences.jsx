@@ -1,4 +1,4 @@
-import ExperienceCard from "../ExperienceCard"
+import ExperienceCard from "../components/ExperienceCard"
 
 function Experiences() {
 	return (

@@ -17,6 +17,7 @@ module.exports = {
     },
     fontFamily: {
       "luimp": ["Luimp","serif"],
+      "mada": ["Mada","sans-serif"],
     },
     screens: {
       "small":{

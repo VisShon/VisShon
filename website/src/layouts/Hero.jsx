@@ -1,5 +1,5 @@
-import GradientWave from "../GradientWave";
-import Title from "../Title";
+import GradientWave from "../components/GradientWave";
+import Title from "../components/Title";
 
 
 function Hero() {
