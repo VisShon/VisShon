@@ -45,7 +45,7 @@ const ScrollContainer = ({ children }) => {
 		<motion.div
 			ref={scrollContainerRef}
 			style={{ y: scrollYtransition }}
-			className="fixed left-0 right-0 min-h-[200vh] w-full will-change-transform"
+			className="fixed left-0 right-0 min-h-[200vh] flex felx-col w-full will-change-transform justify-center items-start relative-transform"
 		>
 			{children}
 		</motion.div>

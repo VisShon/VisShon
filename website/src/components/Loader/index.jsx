@@ -1,4 +1,4 @@
-import Stars from './Stars';
+import Stars from "./Stars";
 
 function Loading() {
 
