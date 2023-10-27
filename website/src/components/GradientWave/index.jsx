@@ -1,10 +1,20 @@
-import { useAnimate, stagger } from "framer-motion"
+import { useAnimate,useScroll,useSpring,useTransform,stagger,motion } from "framer-motion"
 import { useEffect } from "react";
 
 function Index() {
 
-	const staggerItems = stagger(0.4, { startDelay: 0.25 });
+	const staggerItems = stagger(0.4, { startDelay: 0.25 })
 	const [scope, animate] = useAnimate()
+
+	const { scrollY } = useScroll()
+	const springScroll = useSpring(scrollY, {
+		stiffness: 80,
+		damping: 30,
+		restDelta: 0.01,
+	})
+	const wabbitScroll = useTransform(springScroll,[0,1000],[0,-300])
+	const wabbitOpacity = useTransform(springScroll,[0,800],[1,0])
+	
 
   	useEffect(() => {
 		animate(
@@ -36,56 +46,41 @@ function Index() {
 
 
 	return (
-		<div className="w-full h-full relative">
+		<div className="w-full h-full relative -mt-10  flex flex-col justify-center items-center">
 
-			<img src/>
+			<img 
+				className="w-full h-[90vh] absolute z-10 object-cover bg-['linear-gradient(0deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.10) 100%)']" 
+				src="./noise.svg"
+			/>
+			
+			<motion.img 
+				style={{
+					y:wabbitScroll,
+					opacity:wabbitOpacity
+				}}
+				className=" w-[50%] absolute -top-20 z-20" 
+				src="./wabbit.png"
+			/>
 
-			<ul className="w-full -mt-10 flex relative" ref={scope}>
-				<li
-					className="left w-[10%]">	
-				</li>
-				<li
-					className="left w-[10%]">	
-				</li>
-				<li
-					className="left w-[10%]">	
-				</li>
-				<li
-					className="left w-[10%]">	
-				</li>
-				<li
-					className="left w-[10%]">	
-				</li>
-				<li
-					className="left w-[10%]">	
-				</li>
-				<li
-					className="left w-[10%]">	
-				</li>
+			<ul className="w-full flex relative" ref={scope}>
+				<li className="left w-[10%]"/>
+				<li className="left w-[10%]"/>
+				<li className="left w-[10%]"/>
+				<li className="left w-[10%]"/>
+				<li className="left w-[10%]"/>
+				<li className="left w-[10%]"/>
+				<li className="left w-[10%]"/>
 
 
-				<li
-					className="right w-[10%]">		
-				</li>
-				<li
-					className="right w-[10%]">		
-				</li>
-				<li
-					className="right w-[10%]">		
-				</li>
-				<li
-					className="right w-[10%]">		
-				</li>
-				<li
-					className="right w-[10%]">		
-				</li>
-				<li
-					className="right w-[10%]">		
-				</li>
-				<li 
-					className="right w-[10%]">		
-				</li>
+				<li className="right w-[10%]"/>
+				<li className="right w-[10%]"/>
+				<li className="right w-[10%]"/>
+				<li className="right w-[10%]"/>
+				<li className="right w-[10%]"/>
+				<li className="right w-[10%]"/>
+				<li className="right w-[10%]"/>
 			</ul>
+
 		</div>
 	)
 }
