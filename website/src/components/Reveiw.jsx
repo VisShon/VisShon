@@ -1,9 +1,13 @@
 
-function Reveiw() {
+function Reveiw({review,author}) {
 	return (
 		<div>
-			<p></p>
-			<p></p>
+			<p>
+				“{review}”
+			</p>
+			<p>
+				-{author}
+			</p>
 		</div>
 	)
 }

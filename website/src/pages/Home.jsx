@@ -5,6 +5,8 @@ import Introduction from "../layouts/Introduction";
 import Experiences from "../layouts/Experiences";
 import Projects from '../layouts/Projects';
 import Ethics from '../layouts/Ethics';
+import SkillsTools from '../layouts/SkillsTools';
+import Reviews from '../layouts/Reviews';
 
 function Home() {
 
@@ -16,7 +18,8 @@ function Home() {
 				{/* <Experiences/> */}
 				{/* <Ethics/> */}
 				{/* <Projects/> */}
-				
+				<SkillsTools/>
+				<Reviews/>
 			</ScrollContainer>
 
 			<Tabs/>
