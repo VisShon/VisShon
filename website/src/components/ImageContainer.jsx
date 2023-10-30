@@ -10,7 +10,7 @@ const ImageComponent = ({ image }) => {
 
 	return (
 		<motion.div
-			className="relative h-[550px] w-[550px] overflow-hidden"
+			className="relative h-[550px] w-[550px]"
 			initial={{ opacity: 0 }}
 			whileInView={{ opacity: 1 }}
 			transition={{ duration: 0.8, ease: "easeOut" }}
