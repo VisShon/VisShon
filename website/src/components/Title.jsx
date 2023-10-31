@@ -1,4 +1,4 @@
-import { TypeAnimation } from 'react-type-animation';
+import { TypeAnimation } from "react-type-animation"
 
 function Title() {
 	return (

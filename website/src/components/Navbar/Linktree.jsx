@@ -8,12 +8,12 @@ function Linktree() {
 	return (
 		<>
 			<button
-				className="hover:text-charcoal transition-colors" 
+				className="hover:text-charcoal transition-colors w-[10%]" 
 				onMouseEnter={()=>setIsOpen(true)}
+				onMouseLeave={()=>setIsOpen(false)}
 			>
 				Linktree
 				<motion.div
-					onMouseLeave={()=>setIsOpen(false)}
 				 	animate={{
 						clipPath: isOpen
 						  ? "inset(0% 0% 0% 0% round 10px)"
@@ -24,7 +24,7 @@ function Linktree() {
 						bounce: 0,
 						duration: 0.5
 					}}
-					className="grid grid-cols-2  bg-charcoal bg-opacity-50 absolute top-10 p-5  text-left rounded-sm justify-center  text-chalk gap-5">
+					className="grid grid-cols-2  bg-charcoal bg-opacity-50 relative top-5 p-5  text-left rounded-sm justify-center  text-chalk gap-5 w-[10vw]">
 
 					<Link
 						className="hover:text-charcoal transition-all" 
