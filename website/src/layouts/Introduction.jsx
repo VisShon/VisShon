@@ -10,7 +10,7 @@ function Introduction() {
 
 
 	return (
-		<div className="flex justify-center items-start font-mada px-32 py-12 text-charcoal select-none relative gap-40 h-[70vh]">
+		<div className="flex justify-center items-start font-mada px-32 py-12 text-charcoal select-none relative gap-40 h-[80vh]">
 
 			<div className="w-[20%] h-full relative">
 				<div className=" sticky top-0 h-[50%]  flex flex-col justify-start gap-2">

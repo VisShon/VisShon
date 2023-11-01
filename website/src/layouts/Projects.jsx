@@ -6,7 +6,7 @@ import ProjectCard from "../components/ProjectCard"
 
 function Projects() {
 
-	const [selected,setSelected] = useState("LIST")
+	const [selected,setSelected] = useState("GRID")
 
 	return (
 		<div className="w-screen h-fit relative p-48 pt-24 flex flex-col items-center select-none font-mada text-charcoal font-[400] gap-20 justify-between bg-chalk">
@@ -74,14 +74,23 @@ function Projects() {
 			{selected=="LIST"?
 				<div className="w-full flex flex-col">
 					<ProjectTile/>
+					<ProjectTile/>
+					<ProjectTile/>
+					<ProjectTile/>
+					<ProjectTile/>
 				</div>:
 
-				<div className="w-full flex flex-col">
-					<ProjectCard/>
-					{/* <ProjectCard/>
-					<ProjectCard/>
-					<ProjectCard/>
-					<ProjectCard/> */}
+				<div className="w-full flex gap-10 flex-wrap">
+					<ProjectCard 
+					/>
+					<ProjectCard 
+					/>
+					<ProjectCard 
+					/>
+					<ProjectCard 
+					/>
+					<ProjectCard 
+					/>
 				</div>
 			}
 

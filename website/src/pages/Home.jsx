@@ -12,16 +12,13 @@ function Home() {
 
 	return (
 		<main className="flex flex-col items-center relative bg-ivory">
-			<ScrollContainer>
-				{/* <Hero/> */}
-				{/* <Introduction/> */}
-				{/* <Experiences/> */}
-				{/* <Ethics/> */}
-				<Projects/>
-				{/* <SkillsTools/> */}
-				{/* <Reviews/> */}
-			</ScrollContainer>
-
+			<Hero/>
+			{/* <Introduction/> */}
+			{/* <Experiences/> */}
+			{/* <Ethics/> */}
+			{/* <Projects/> */}
+			{/* <SkillsTools/> */}
+			{/* <Reviews/> */}
 			<Tabs/>
 		</main>
 	)

@@ -27,6 +27,13 @@ img {
    user-select:none;
 }
 
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

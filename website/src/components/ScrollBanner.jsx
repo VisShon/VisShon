@@ -1,34 +1,18 @@
-import { useScroll,useSpring,useTransform,motion } from "framer-motion"
-import { useRef } from "react"
+import { useScroll,useSpring,useTransform,motion, useMotionValue } from "framer-motion"
 
-function ScrollBanner() {
+function ScrollBanner({bg,onScroll,dark}) {
 
-	const containerRef = useRef(null)
-
-	const { scrollY } = useScroll({
-		target: containerRef,
-		offset: ["end end", "start start"]
-	})
-
-	const springScroll = useSpring(scrollY, {
-		stiffness: 80,
-		damping: 30,
-		restDelta: 0.01,
-	})
-
-	const bannerScroll = useTransform(
-		springScroll,
-		[0,1000],
-		[0,-40],
-		{clamp:false}
-	)
+	const bannerBgPos = useMotionValue(0)
 
 	return (
-		<div className="flex gap-10 items-center justify-center font-mada font-[400] text-5xl capitalize w-screen overflow-clip h-[10%]" ref={containerRef}>
-			<img 
-				style={{x:bannerScroll}}
-				src="./banner.svg"
-			/>
+		<div 
+			className="w-full h-[5rem] bg-repeat-x bg-center" 
+			style={
+				dark?
+				{backgroundImage:"url(./bannerDark.svg",backgroundColor:"#1F1F1F"}:
+				{backgroundImage:"url(./bannerLight.svg)",backgroundColor:"#F4F9FF"}
+			}
+		>
 		</div>
 	)
 }

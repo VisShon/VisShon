@@ -7,13 +7,13 @@ function Experiences() {
 
 	return (
 		<>
-			<div className="h-[450vh] p-12 w-full flex flex-col justify-start font-mada text-charcoal select-none">
+			<div className="h-[120vh] p-12 w-full flex flex-col justify-start font-mada text-charcoal select-none">
 
 				<div className="absolute flex flex-col items-center justify-start w-[40%] h-[450vh] gap-20">
 					<ExperienceCard/>
+					{/* <ExperienceCard/>
 					<ExperienceCard/>
-					<ExperienceCard/>
-					<ExperienceCard/>
+					<ExperienceCard/> */}
 				</div>
 
 				<div className="border-[1.5px] h-[90vh] rounded-md  border-grey p-48 flex justify-end">

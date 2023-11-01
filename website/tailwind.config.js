@@ -32,6 +32,14 @@ module.exports = {
         'spin-slow': 'spin 3s linear infinite',
       },
       visibility: ["group-hover"],
+      backgroundImage: {
+        'project-pattern': "url('/public/projectPattern.png')",
+        'workBg': "url('/public/workBg.png')",
+        'communityBg': "url('/public/communityBg.png')",
+        'mentorshipBg': "url('/public/mentorshipBg.png')",
+        'awardsBg': "url('/public/awardsBg.png')",
+        'projectBg': "url('/public/projectBg.png')",
+      }
     }
   },
   plugins: [],

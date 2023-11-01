@@ -11,22 +11,27 @@ import Project from "./pages/Project";
 import Award from "./pages/Award";
 
 import "./styles/index.css";
+import ScrollContainer from "./components/ScrollContainer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<BrowserRouter>
 
-		{/* <Navbar/> */}
+		<ScrollContainer>
 
-		<Routes>
-			<Route path="/" element={<Home/>} />
-			<Route path="/dashboard" element={<Dashboard/>} />
-			<Route path="/community/:id" element={<Community/>} />
-			<Route path="/project/:id" element={<Project/>} />
-			<Route path="/award/:id" element={<Award/>} />
-		</Routes>
+			{/* <Navbar/> */}
 
-		<Footer />
+			<Routes>
+				<Route path="/" element={<Home/>} />
+				<Route path="/dashboard" element={<Dashboard/>} />
+				<Route path="/community/:id" element={<Community/>} />
+				<Route path="/project/:id" element={<Project/>} />
+				<Route path="/award/:id" element={<Award/>} />
+			</Routes>
+
+			{/* <Footer /> */}
+
+		</ScrollContainer>
 
 	</BrowserRouter>
 );
