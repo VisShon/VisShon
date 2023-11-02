@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom"
 import { motion } from "framer-motion"
-import DashboardPopUp from './DashboardPopUp';
+import DashboardPopUp from "./DashboardPopUp"
 
 function DashboardButton({index,descp,title}) {
 

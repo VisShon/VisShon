@@ -21,7 +21,7 @@ root.render(
 
 		<ScrollContainer>
 
-			{/* <Navbar/> */}
+			<Navbar/>
 
 			<Routes>
 				<Route path="/" element={<Home/>} />

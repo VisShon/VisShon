@@ -4,7 +4,9 @@ function ShowCase() {
 	return (
 		<div>
             
-			<Seperator/>
+			<Seperator
+				top
+			/>
 
 			<div>
 				<img/>
