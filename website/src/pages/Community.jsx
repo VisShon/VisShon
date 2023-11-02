@@ -2,7 +2,9 @@ import React from "react"
 
 function Community() {
 	return (
-		<div>Community</div>
+		<main className="flex flex-col items-center relative bg-ivory w-full h-fit">
+
+		</main>
 	)
 }
 

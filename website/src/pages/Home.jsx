@@ -1,5 +1,4 @@
 import ScrollContainer from "../components/ScrollContainer"
-import Tabs from "../components/Navbar/Tabs"
 import Hero from "../layouts/Hero"
 import Introduction from "../layouts/Introduction"
 import Experiences from "../layouts/Experiences"
@@ -11,7 +10,7 @@ import Reviews from "../layouts/Reviews"
 function Home() {
 
 	return (
-		<main className="flex flex-col items-center relative bg-ivory">
+		<main className="flex flex-col items-center relative bg-ivory w-full h-fit">
 			<Hero/>
 			{/* <Introduction/> */}
 			{/* <Experiences/> */}
@@ -19,7 +18,6 @@ function Home() {
 			{/* <Projects/> */}
 			{/* <SkillsTools/> */}
 			{/* <Reviews/> */}
-			<Tabs/>
 		</main>
 	)
 }

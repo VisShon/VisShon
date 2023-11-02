@@ -3,6 +3,8 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Tabs from "./components/Navbar/Tabs"
+
 
 import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
@@ -29,9 +31,11 @@ root.render(
 				<Route path="/award/:id" element={<Award/>} />
 			</Routes>
 
+
 			{/* <Footer /> */}
 
 		</ScrollContainer>
-
+		
+		{/* <Tabs /> */}
 	</BrowserRouter>
 );
