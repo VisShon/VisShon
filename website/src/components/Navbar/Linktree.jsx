@@ -9,7 +9,7 @@ function Linktree() {
 		<>
 			<button
 				className="hover:text-charcoal transition-colors w-[3rem] h-[2rem]" 
-				onMouseEnter={()=>setIsOpen(true)}
+				onClick={()=>setIsOpen(prev=>!prev)}
 				onMouseLeave={()=>setIsOpen(false)}
 			>
 				Linktree

@@ -11,16 +11,20 @@ function Hero() {
 
 	return (
 		<>
-			<div className="flex flex-col justify-center items-center font-mada p-32 text-charcoal tracking-[1.8px] text-center select-none relative w-[70%] -mb-10">
+			<div className="flex flex-col justify-center items-center font-mada px-32 text-charcoal tracking-[1.8px] text-center select-none relative w-[70%] -mb-10">
 				<h2 className="font-[400] text-4xl">FULL STACK</h2>
 				<Title/>
 				<GradientWave/>
 			</div>
 
-			<div className="text-grey font-mada font-[400]  flex w-full justify-between p-10 items-end absolute top-[75vh]">
+			<div className="text-grey font-mada font-[400] flex w-full justify-between p-10 items-end absolute top-[65vh]">
+				
 				<p className="w-[8%] select-none">
-					I'm <b> Vishnu Shon, </b>I develop solutions that  blend creativity with functionality.
+					I'm <b> Vishnu Shon, </b>
+					I develop solutions that  
+					blend creativity with functionality.
 				</p>
+
 				<div className="w-[8%] flex flex-col right-0 gap-5">
 					<Link 
 						className="relative hover:text-[#CCCFD4] transition-all"
@@ -29,7 +33,7 @@ function Hero() {
 						onMouseLeave={()=>setLink1Selected(false)}
 						to="https://www.facebook.com/hcdiiitd/photos/3283459738578121/?paipv=0&eav=AfbJyIIwVX-zQRLBd9lIKcHDOF-EMF_S6VPrUes4f2yjkS6F26GRJPozk3PLblQ27Hw&_rdr">
 						{link1Selected&&<img
-							className="absolute top-0 transition-all ease-in-out w-[60%]" 
+							className="absolute top-0 transition-all ease-in-out w-[40%]" 
 							src="./arrow.svg"
 						/>}
 						Bounty Winner, Polygon Buidlit Hackathon
@@ -42,7 +46,7 @@ function Hero() {
 						onMouseLeave={()=>setLink2Selected(false)}
 						to="https://ethglobal.com/showcase/alkynefi-nampv">
 						{link2Selected&&<img
-							className="absolute top-0 transition-all ease-in-out w-[60%]" 
+							className="absolute top-0 transition-all ease-in-out w-[40%] " 
 							src="./arrow.svg"
 						/>}
 						Bounty Winner, Ethereum India Hackathon
