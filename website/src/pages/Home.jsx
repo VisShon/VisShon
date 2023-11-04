@@ -10,14 +10,14 @@ import Reviews from "../layouts/Reviews"
 function Home() {
 
 	return (
-		<main className="flex flex-col items-center relative bg-ivory w-full h-fit">
+		<main className="flex flex-col items-center relative bg-ivory w-full h-fit overflow-x-clip">
 			<Hero/>
-			{/* <Introduction/> */}
-			{/* <Experiences/> */}
+			<Introduction/>
+			<Experiences/>
 			{/* <Ethics/> */}
-			{/* <Projects/> */}
-			{/* <SkillsTools/> */}
-			{/* <Reviews/> */}
+			<Projects/>
+			<SkillsTools/>
+			<Reviews/>
 		</main>
 	)
 }

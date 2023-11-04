@@ -12,6 +12,7 @@ function Index() {
 		damping: 30,
 		restDelta: 0.01,
 	})
+
 	const wabbitScroll = useTransform(springScroll,[0,1000],[0,-300])
 	const wabbitOpacity = useTransform(springScroll,[0,300,800],[1,1,0],{clamp: false})
 
@@ -28,7 +29,6 @@ function Index() {
 		
 	}
 	
-
   	useEffect(() => {
 		animate(
 			".left",

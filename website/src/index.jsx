@@ -21,7 +21,7 @@ root.render(
 	<BrowserRouter>
 
 		<Avaibility/>
-		<ScrollContainer>
+		{/* <ScrollContainer> */}
 			<Navbar/>
 			<Routes>
 				<Route path="/" element={<Home/>} />
@@ -30,7 +30,7 @@ root.render(
 				<Route path="/project/:id" element={<Project/>} />
 				<Route path="/award/:id" element={<Award/>} />
 			</Routes>
-		</ScrollContainer>
+		{/* </ScrollContainer> */}
 
 		{/* <Footer /> */}
 		{/* <Tabs /> */}

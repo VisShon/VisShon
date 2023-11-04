@@ -1,22 +1,27 @@
 import ExperienceCard from "../components/ExperienceCard"
 import { useState } from "react"
-import { motion } from "framer-motion"
+import { motion,useMotionValueEvent, useScroll } from "framer-motion"
 
 function Experiences() {
 	const [rotation,setRotation] = useState(0)
+	const {scrollY} = useScroll()
+
+	useMotionValueEvent(scrollY, "change", 
+		(latest) => setRotation(prev=>prev+scrollY?.current/1000)
+	)
 
 	return (
 		<>
-			<div className="h-[120vh] p-12 w-full flex flex-col justify-start font-mada text-charcoal select-none">
+			<div className="h-[500vh] p-12 w-full font-mada text-charcoal select-none relative mb-20">
 
-				<div className="absolute flex flex-col items-center justify-start w-[40%] h-[450vh] gap-20">
+				<div className="absolute flex flex-col items-center justify-start w-[40%] h-[98%] gap-20 z-20">
 					<ExperienceCard/>
-					{/* <ExperienceCard/>
 					<ExperienceCard/>
-					<ExperienceCard/> */}
+					<ExperienceCard/>
+					<ExperienceCard/>
 				</div>
 
-				<div className="border-[1.5px] h-[90vh] rounded-md  border-grey p-48 flex justify-end">
+				<div className="border-[1.5px] h-[80vh] rounded-md  border-grey p-48 flex justify-end sticky top-20">
 
 					<div className="w-[40%] flex flex-col">
 						<h2 className="font-[400] text-6xl mb-2">
@@ -43,10 +48,8 @@ function Experiences() {
 					</div>
 
 					<motion.img
-						onMouseEnter={()=>setRotation(rotation=>rotation+30)}
-						onMouseLeave={()=>setRotation(rotation=>rotation+30)}
 						animate={{rotateZ:rotation}}
-						className="fixed bottom-10 right-24"
+						className="absolute bottom-10 right-24"
 						src="./darkStar.svg"
 					/>
 				</div>

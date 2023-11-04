@@ -20,9 +20,9 @@ function Avaibility() {
 	
 	
 	useMotionValueEvent(scrollY, "change", (latest) => {
-		if (scrollY?.current < scrollY?.prev) {
+		if (scrollY?.current < 1500) {
 			setActive(false)
-		} else if (scrollY?.current > 100 && scrollY?.current > scrollY?.prev) {
+		} else if (scrollY?.current > 1500 ) {
 			setActive(true)
 		}
  	})

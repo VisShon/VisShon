@@ -6,14 +6,12 @@ import { motion } from "framer-motion"
 function Introduction() {
 
 	const [rotation,setRotation] = useState(0)
-	const [link1Selected, setLink1Selected] = useState(false)
-
 
 	return (
-		<div className="flex justify-center items-start font-mada px-32 py-12 text-charcoal select-none relative gap-40 h-[80vh]">
+		<div className="flex justify-center items-start font-mada p-32  text-charcoal select-none relative gap-40 h-[80vh]">
 
 			<div className="w-[20%] h-full relative">
-				<div className=" sticky top-0 h-[50%]  flex flex-col justify-start gap-2">
+				<div className=" sticky top-0 h-[65%]  flex flex-col justify-start ">
 					<h1 
 						className="font-luimp italic font-[400] text-8xl leading-[6rem] text-charcoal text-right capitalize">
 						Vishnu Shon
@@ -52,13 +50,7 @@ function Introduction() {
 						<Link 
 							className="relative hover:text-[#CCCFD4] transition-all underline" 
 							target="_blank"
-							onMouseEnter={()=>setLink1Selected(true)}
-							onMouseLeave={()=>setLink1Selected(false)}
 							to="https://inc42.com/buzz/meet-the-31-web3-startups-that-are-part-of-first-cohort-of-polygonleap-2021/">
-							{link1Selected&&<img
-								className="absolute top-0 transition-all ease-in-out w-[50%] left-0" 
-								src="./arrow.svg"
-							/>}
 							fundraising
 						</Link>
 						‎ efforts. 
