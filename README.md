@@ -1,6 +1,5 @@
 
 ### 🙋🏻‍♂️ Hello there, I am Vishnu a GRAND stack developer.
-
 Enthusiastic, self-motivated, responsible, and experienced team player who can adapt to any challenging situation. With industry experience in Web Development, UI/UX design, and Market Research, and an eagerness to learn.
 
 ### My Languages 👨🏻‍💻
