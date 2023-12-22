@@ -48,7 +48,7 @@ Enthusiastic, self-motivated, responsible, and experienced team player who can a
 ![](https://img.shields.io/badge/-Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white)
 
 
-![](./profile-3d-contrib/profile-gitblock.svg)
+![](./assets/profile-gitblock.svg)
 
 
 ### Contact me 📪
