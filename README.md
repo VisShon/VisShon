@@ -46,9 +46,7 @@ Enthusiastic, self-motivated, responsible, and experienced team player who can a
 ![](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
 ![](https://img.shields.io/badge/-Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white)
 
-
 ![](./assets/profile-gitblock.svg)
-
 
 ### Contact me 📪
 ![linktree](https://img.shields.io/badge/linktree-1de9b6?style=for-the-badge&logo=linktree&logoColor=white) https://linktr.ee/VishnuShon
