@@ -9,7 +9,7 @@ jobs:
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v3
-      - uses: VisShon/github-profile-3d-contrib@community
+      - uses: VisShon/github-profile-3d-contrib@1.2
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
           USERNAME: ${{ github.repository_owner }}
