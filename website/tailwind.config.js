@@ -33,12 +33,12 @@ module.exports = {
       },
       visibility: ["group-hover"],
       backgroundImage: {
-        'project-pattern': "url('/public/projectPattern.png')",
-        'workBg': "url('/public/workBg.png')",
-        'communityBg': "url('/public/communityBg.png')",
-        'mentorshipBg': "url('/public/mentorshipBg.png')",
-        'awardsBg': "url('/public/awardsBg.png')",
-        'projectBg': "url('/public/projectBg.png')",
+        'project-pattern': "url('/public/others/projectPattern.png')",
+        'workBg': "url('/public/others/workBg.png')",
+        'communityBg': "url('/public/others/communityBg.png')",
+        'mentorshipBg': "url('/public/others/mentorshipBg.png')",
+        'awardsBg': "url('/public/others/awardsBg.png')",
+        'projectBg': "url('/public/others/projectBg.png')",
       }
     }
   },

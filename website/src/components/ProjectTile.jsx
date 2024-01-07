@@ -18,13 +18,13 @@ function ProjectTile({key=0}) {
 					<Link 
 						className="opacity-80 hover:opacity-100 transition-all"
 						to={""}>
-						<img src="./github.png"/>
+						<img src="./icons/github.png"/>
 					</Link>
 
 					<Link 
 						className="opacity-80 hover:opacity-100 transition-all"
 						to={""}>
-						<img src="./figma.png"/>
+						<img src="./icons/figma.png"/>
 					</Link>
 				</div>
 
@@ -39,7 +39,7 @@ function ProjectTile({key=0}) {
 				<Link 
 					className="opacity-80 hover:opacity-100 transition-all"
 					to={""}>
-					<img src="./arrow.svg"/>
+					<img src="./icons/arrow.svg"/>
 				</Link>
 
 				{isOpen?
@@ -47,7 +47,7 @@ function ProjectTile({key=0}) {
 					className="absolute bottom-0 left-[15%] rounded-md border-[1.5px] border-charcoal p-3 bg-chalk z-20"
 					layoutId="hover"
 				>
-					<img src="./projectTemplateImage.png"/>
+					<img src="./others/projectTemplateImage.png"/>
 				</motion.div>:null}
 			</div>
 

@@ -19,10 +19,10 @@
 }
 
 \geometry{
-    top=0.1in, 
+    top=0.2in, 
     bottom=0.1in,
-    left=0.2in,
-    right=0.2in,
+    left=0.3in,
+    right=0.3in,
 }
 
 \newcommand{\name}[1]{\renewcommand{\name}{#1}}
@@ -63,34 +63,36 @@
     \printname 
     \smallskip
     \printlink
+    \vspace{0.5em}
     \hrule
 }
 
 \newenvironment{rSection}[1]{ 
     \textcolor{PineGreen}{\MakeUppercase{\large\textbf{#1}}}
-    \vspace{-0.5em}
+    \vspace{-0.8em}
     \begin{list}{}{ 
-        \setlength{\leftmargin}{1.5em}
+        \setlength{\leftmargin}{1em}
     }
     \item[] 
     }{
     \end{list}
-    \vspace{0.2em}
+    \vspace{0.5em}
 }
 
 
 \newenvironment{rSubsection}[2]{ 
     \textbf{#1} \hfill {#2} 
     \begin{list}
-        {$\cdot$}{\leftmargin=0.2em} 
-        \setlength{\itemsep}{-0.8em} \vspace{-0.8em} 
+        {$\cdot$}{\leftmargin=0.1em}
+        \setlength{\itemsep}{-0.8em} \vspace{-0.9em} 
 }
 {
     \end{list}
+    \vspace{-0.3em}
 }
 
 \newenvironment{rOthers}[2]{ 
     {#1} \hfill {#2}
-    \vspace{-0.6em}
+    \vspace{-0.5em}
 }{
 }

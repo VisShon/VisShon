@@ -8,12 +8,12 @@ function ExperienceCard() {
 		>
 			<img 
 				className="absolute"
-				src="./mathworks.png"
+				src="./others/mathworks.png"
 			/>
 
 			<img 
 				className="w-full rounded-md h-full"
-				src="./mathworksBG.png"
+				src="./others/mathworksBG.png"
 			/>
 
 		</div>

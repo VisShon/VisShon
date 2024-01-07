@@ -32,7 +32,7 @@ function PopUpTile({bg,title,descp,link,key}) {
 				className="opacity-80 hover:opacity-100 transition-all"
 				to={link}>
 				<img 
-					src="./arrow.svg"
+					src="./icons/arrow.svg"
 				/>
 			</Link>
 

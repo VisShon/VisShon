@@ -39,9 +39,9 @@ function DashboardButton({index,descp,title}) {
 				</h2>
 			</motion.div>
 
-			<DashboardPopUp 
+			{/* <DashboardPopUp 
 				bg={"./projectBg.png"}
-			/>
+			/> */}
 		</>
 	)
 }

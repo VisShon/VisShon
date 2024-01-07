@@ -13,11 +13,11 @@ function Home() {
 		<main className="flex flex-col items-center relative bg-ivory w-full h-fit overflow-x-clip">
 			<Hero/>
 			<Introduction/>
-			<Experiences/>
+			{/* <Experiences/> */}
 			{/* <Ethics/> */}
-			<Projects/>
+			{/* <Projects/>
 			<SkillsTools/>
-			<Reviews/>
+			<Reviews/> */}
 		</main>
 	)
 }

@@ -1,0 +1,125 @@
+[
+	{
+		"title": "Mathworks | EDG Intern",
+		"date": "May 2023 - July 2023",
+		"links": [
+			{
+				"name": "LinkedIn - Mathworks",
+				"url": "https://www.linkedin.com/company/the-mathworks_2/"
+			},
+			{
+				"name": "Canva - Mathworks",
+				"url": "https://www.canva.com/design/DAF4FIqehY4/x6-IHkxgp8GA_qiTHfGILw/view?utm_content=DAF4FIqehY4"
+			}
+		],
+		"descriptions": [
+			"Implemented UI Testing for Simulink VR Editor, revamping 7 test modules for the newer JS based virtual world editor, and creating helper classes for interactive test cases.",
+			"Orchestrated the adoption of a class-based testing framework, leading to a 30% improvement in software quality.",
+			"Bashed the SL3D editor module for understanding test needs, identified 5 severe bugs in the new virtual world editor, which were raised for the upcoming release, and helped write new tests for the VR Editor."
+		],
+		"image":"./content/images/experience/1.webp"
+	},
+	{
+		"title": "StayBook | Product Lead",
+		"date": "Aug 2022 - September 2023",
+		"links": [
+			{
+				"name": "LinkedIn - StayBook",
+				"url": "https://www.linkedin.com/company/hotelier/"
+			},
+			{
+				"name": "Canva - StayBook",
+				"url": "https://www.canva.com/design/DAFmNXtGnHo/gWPGovLPTNF7IAD8KOf6bw/view?utm_content=DAFmNXtGnHo"
+			}
+		],
+		"descriptions": [
+			"Spearheaded the development of the highly efficient Booking API microservice and data delivery integration with Google hotel center, serving customers for 200+ hotels, garnering a 25% increase in digital revenue.",
+			"Architected CDN caching for static content and Load balancing for traffic optimization using Google cloud load balancing, reducing LCP load times from 5s to <2.5s.",
+			"Critically increased product sales by targeting google insights and optimizing SEO, resulting in 20,000 daily active users."
+		],
+		"image":"./content/images/experience/2.webp"
+
+	},
+	{
+		"title": "Government of India | Full Stack Developer",
+		"date": "March 2023 - February 2023",
+		"links": [
+			{
+				"name": "LinkedIn - Government of India",
+				"url": "https://www.linkedin.com/company/government-of-india/"
+			}
+		],
+		"descriptions": [
+			"Implemented a crucial Proof of Concept for a government internal software, collaborating with 2 senior officials and a PhD team of 5, from IIT Bombay.",
+			"Led the integration of the backend with GeoServer, using PostGIS and OSM API, incorporating satellite data with a composable React UI.",
+			"Pioneered authentication using the government SSO servers setting the solid groundwork for future deployment."
+		],
+		"image":"./content/images/experience/3.webp"
+	},
+	{
+		"title": "Respct | Founding Member",
+		"date": "December 2021 - July 2022",
+		"links": [
+			{
+				"name": "LinkedIn - Respct",
+				"url": "https://www.linkedin.com/company/respct-labs/"
+			},
+			{
+				"name": "Canva - Respct",
+				"url": "https://www.canva.com/design/DAFmNXtGnHo/gWPGovLPTNF7IAD8KOf6bw/view?utm_content=DAFmNXtGnHo"
+			}
+		],
+		"descriptions": [
+			"Achieved a milestone with successful pre-seed and seed funding of over $1M, participating in Tachyon 22 accelerator program.",
+			"Expanded product visibility and usability through the USM Metaverse integration.",
+			"Orchestrated the conceptualization and implementation of product features, utilizing NextJS and EthersJs to craft an immersive user interface and experience, leading to a 50% surge in user adoption.",
+			"Proposed an integrative approach for embedding Respct inside the USM Metaverse, managing a multidisciplinary team of developers and designers."
+		],
+		"image":"./content/images/experience/4.webp"
+	},
+	{
+		"title": "HedgeCo | Frontend Developer",
+		"date": "April 2022 - June 2022",
+		"links": [
+			{
+				"name": "LinkedIn - HedgeCo",
+				"url": "https://www.linkedin.com/company/hedgeco-app/"
+			}
+		],
+		"descriptions": [
+			"Led the development of HedgeCo's PWA using React JS and Chart JS, concurrently driving the UI/UX design team for an intuitive and visually engaging user interface.",
+			"Worked closely with the CTO to refine design ideations, resulting in a product that aligns seamlessly with the company's vision."
+		],
+		"image":"./content/images/experience/5.webp"
+	},
+	{
+		"title": "Settlrs | UI/UX Designer",
+		"date": "March 2022 - May 2022",
+		"links": [
+			{
+				"name": "LinkedIn - Settlrs",
+				"url": "https://www.linkedin.com/company/settlrs"
+			}
+		],
+		"descriptions": [
+			"Designed the user flow and UI for the platform from scratch, working closely with the lead developer.",
+			"Worked on revamping the landing page with a better information structure and new illustrations and interactions."
+		],
+		"image":"./content/images/experience/6.webp"
+	},
+	{
+		"title": "Memboro | UI/UX Designer",
+		"date": "August 2021 - November 2021",
+		"links": [
+			{
+				"name": "LinkedIn - Memboro",
+				"url": "https://www.linkedin.com/company/memboro/"
+			}
+		],
+		"descriptions": [
+			"Worked as a UI/UX Designer, crafting a revamped UI for the platform working closely with the founders and design lead.",
+			"A social media platform, Memboro helps creators strategize their content and monetize their community."
+		],
+		"image":"./content/images/experience/7.webp"
+	}
+  ]

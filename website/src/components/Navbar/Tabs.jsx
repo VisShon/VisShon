@@ -14,7 +14,7 @@ function Tabs() {
 					<Link
 						className="hover:opacity-100 opacity-95" 
 						to={"/dashboard"}>
-						<img src="./dashboard.svg"/>
+						<img src="./others/dashboard.svg"/>
 					</Link>
 				</div>
 

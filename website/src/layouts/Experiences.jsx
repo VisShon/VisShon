@@ -50,7 +50,7 @@ function Experiences() {
 					<motion.img
 						animate={{rotateZ:rotation}}
 						className="absolute bottom-10 right-24"
-						src="./darkStar.svg"
+						src="./others/darkStar.svg"
 					/>
 				</div>
 

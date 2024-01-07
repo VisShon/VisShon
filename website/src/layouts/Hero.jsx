@@ -11,7 +11,7 @@ function Hero() {
 
 	return (
 		<>
-			<div className="flex flex-col justify-center items-center font-mada px-32 text-charcoal tracking-[1.8px] text-center select-none relative w-[70%] -mb-10">
+			<div className="flex flex-col justify-center items-center font-mada px-32 text-charcoal tracking-[1.8px] text-center select-none relative w-[70%] mb-20">
 				<h2 className="font-[400] text-4xl">FULL STACK</h2>
 				<Title/>
 				<GradientWave/>
@@ -34,7 +34,7 @@ function Hero() {
 						to="https://www.facebook.com/hcdiiitd/photos/3283459738578121/?paipv=0&eav=AfbJyIIwVX-zQRLBd9lIKcHDOF-EMF_S6VPrUes4f2yjkS6F26GRJPozk3PLblQ27Hw&_rdr">
 						{link1Selected&&<img
 							className="absolute top-0 transition-all ease-in-out w-[40%]" 
-							src="./arrow.svg"
+							src="./icons/arrow.svg"
 						/>}
 						Bounty Winner, Polygon Buidlit Hackathon
 					</Link>
@@ -47,7 +47,7 @@ function Hero() {
 						to="https://ethglobal.com/showcase/alkynefi-nampv">
 						{link2Selected&&<img
 							className="absolute top-0 transition-all ease-in-out w-[40%] " 
-							src="./arrow.svg"
+							src="./icons/arrow.svg"
 						/>}
 						Bounty Winner, Ethereum India Hackathon
 					</Link>

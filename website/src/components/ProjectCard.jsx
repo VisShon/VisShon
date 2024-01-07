@@ -54,7 +54,7 @@ function ProjectCard({style}) {
 						<Link
 							className="p-5 bg-chalk rounded-full opacity-90 hover:opacity-100" 
 							to={"linktoproject"}>
-							<img src="./arrow.svg"/>
+							<img src="./icons/arrow.svg"/>
 						</Link>
 					</div>
 				</div>

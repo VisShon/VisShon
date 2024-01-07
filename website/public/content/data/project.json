@@ -1,0 +1,418 @@
+[
+	{
+		"title": "Escrow-Based Payment Management Platform",
+		"links": [
+			{
+			"name": "Canva Design",
+			"url": "https://www.canva.com/design/DAFH_YrRX4w/YwvcnKJpBXAussHMJ0QtXg/view?utm_content=DAFH_YrRX4w"
+			},
+			{
+			"name": "Figma",
+			"url": "https://www.figma.com/community/file/1126866736076022603"
+			},
+			{
+			"name": "GitHub",
+			"url": "https://github.com/RevereLabs"
+			},
+			{
+			"name": "Market Research",
+			"url": "https://visshon.notion.site/visshon/Market-Research-RevereLabs-89ef31ae98a3434a9588ac6b9d7b9c2e"
+			}
+		],
+		"descriptions": [
+			"Led the development of an escrow payment platform leveraging NextJS, EthersJS, AWS, and Moralis SDK, bagging a $2000 win in Polygon BuidlIt Hackathon 2022.",
+			"Led web3 development and market study buoyed by a comprehensive 3-month States DAO mentorship, Supervised platform design and protocol integration.",
+			"RevereLabs presents an Escrow-Based Payment Management Platform designed to address the challenges faced by clients and freelancers in the gig economy. Focused on building trust through efficient payments, the platform fosters a \"trusted economy\" using web3 technologies. Leveraging an intricate smart contract, NFTEscrow.sol, deployed for every gig, ensuring secure and transparent transactions. The platform's frontend, built with NEXT.js and integrated with blockchain using Ethers.js, facilitates user authentication through Moralis and AWS Cognito and stores user and gig data via IPFS file storage API. Noteworthy is RevereLabs' participation and success in the Polygon BuidlIt Hackathon 2022, where it secured a $2000 win. The platform's evolution is marked by a 3-month mentorship with StatesDAO for getting a better understanding of advancing web3 development and market study."
+		],
+		"images":[
+			"./content/images/projects/revereLabs/1.webp",
+			"./content/images/projects/revereLabs/2.webp",
+			"./content/images/projects/revereLabs/3.webp",
+			"./content/images/projects/revereLabs/4.webp",
+			"./content/images/projects/revereLabs/5.webp",
+			"./content/images/projects/revereLabs/6.webp"
+		]
+	},
+	{
+		"title": "Decentralized Journalism Platform",
+		"links": [
+			{
+				"name": "Canva Design",
+				"url": "https://www.canva.com/design/DAFgcDTwurc/G_JqRTsA-FrIXaiHzgzGwQ/view?utm_content=DAFgcDTwurc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+			},
+			{
+				"name": "Figma",
+				"url": "https://www.figma.com/community/file/1210579916419268774"
+			},
+			{
+				"name": "GitHub",
+				"url": "https://github.com/0xFethr"
+			},
+			{
+				"name": "Market Research",
+				"url": "https://visshon.notion.site/visshon/Market-Research-0xFethr-7ace4c6022f849608e2ca4a0cf444fff"
+			}
+		],
+		"descriptions": [
+			"Led the development of a decentralized journalism platform with NextJs, EthersJs, GraphQl, and Ceramic Network, reduced content censorship risks by leveraging blockchain technology.",
+			"Developed features like faucet via Wagmi, subscription pipeline via Superfluid, and secure identities with Ceramic DID.",
+			"Secured the runner-up spot at the IGDTUW Devacation Hackathon by leading a team of 5 in developing an innovative project with a credible use of web3.",
+			"Fethr, the Decentralized Journalism Platform, was created for secure and transparent journalism in the face of increasing censorship. The application utilizes blockchain technology to provide journalists with a secure space for sharing stories without fear of censorship. Fethr introduces a user verification system, allowing journalists to register and get verified for publishing articles seamlessly. With features like AI-based content review, faucet system via Wagmi, subscription pipeline via Superfluid, and secure identities with Ceramic DID, Fethr ensures credibility and transparency. The architecture involves WalletConnect SDK for user interaction with the blockchain, Next.js and Ethers.js for the frontend, Ceramic Network ComposeDB for data retrieval, and NFT Storage SDK for blog NFT minting. Fethr's was recognized as the runner-up at the IGDTUW Devacation Hackathon."
+		],
+		"images":[
+			"./content/images/projects/0xfethr/1.webp",
+			"./content/images/projects/0xfethr/2.webp",
+			"./content/images/projects/0xfethr/3.webp",
+			"./content/images/projects/0xfethr/4.webp",
+			"./content/images/projects/0xfethr/5.webp",
+			"./content/images/projects/0xfethr/6.webp"
+		]
+	},
+	{
+		"title": "Social Trading Platform",
+		"links": [
+			{
+				"name": "Canva Design",
+				"url": "https://www.canva.com/design/DAFTnZl_yZo/u6Hri4Mxhhk-qtEt8g-5EQ/view?utm_content=DAFTnZl_yZo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+			},
+			{
+				"name": "Figma",
+				"url": "https://www.figma.com/community/file/1182947365625461374"
+			},
+			{
+				"name": "GitHub",
+				"url": "https://github.com/AlkyneFi"
+			}
+		],
+		"descriptions": [
+			"Developed and designed a social DeFi platform at ETHIndia 2022, leveraging NextJs, EthersJs, and Uniswap API for robust front-end development.",
+			"Amalgamated third-party protocols such as Push protocol, Filecoin, and Covalent API, earning a collective $1700+ accolade.",
+			"AlkyneFi, the Social Trading Platform, merges financial elements with the creator economy under the decentralized umbrella. Leveraging technologies such as Lens protocol, ENS, IPFS, Push, Covalent API, and FileCoin, AlkyneFi introduces a unique model allowing selective membership access to assets traded and recommended by 'Managers' (creators). Hosted on Polygon, the platform ensures live updates and notifications using Push, with Manager asset data and records seamlessly integrated through the Covalent API. AlkyneFi not only secured a distinguished place in the world's largest Ethereum hackathon, ETHIndia 2022, but also earned multiple bounties from prominent entities like Covalent, FileCoin, and Push Protocol, amassing a collective accolade of $1700+."
+		],
+		"images":[
+			"./content/images/projects/alkyneFi/1.webp",
+			"./content/images/projects/alkyneFi/2.webp",
+			"./content/images/projects/alkyneFi/3.webp",
+			"./content/images/projects/alkyneFi/4.webp",
+			"./content/images/projects/alkyneFi/5.webp",
+			"./content/images/projects/alkyneFi/6.webp"
+		]
+	},
+	{
+		"title": "InterviewLink",
+		"links": [
+			{
+				"name": "Canva Design",
+				"url": "https://www.canva.com/design/DAF4H25948Y/fCJMbR-rqaTTLZYKKX6Pag/view?utm_content=DAF4H25948Y"
+			},
+			{
+				"name": "Figma",
+				"url": "https://www.figma.com/community/file/1257993941806461222"
+			},
+			{
+				"name": "GitHub",
+				"url": "https://github.com/InterviewLink"
+			},
+			{
+				"name": "Product Management",
+				"url": "https://visshon.notion.site/visshon/Product-Management-InterviewLink-b30bbc0175e24d91a85bb91bfd247a02"
+			}
+		],
+		"descriptions": [
+			"spearheaded the implementation of a robust platform using a Microservices Architecture, incorporating NextJs for the application and ExpressJs for scheduling servers and integrating technologies like Neo4j, GraphQL, Apollo and Google NLP API.",
+			"Established CI/CD pipeline with Google Cloud Run and Google Build triggers, Implemented Cypress for rigorous UI testing and scalable deployment.",
+			"Collaborated closely with a Mathworks representative, achieving a successful project outcome and showcasing the platform's excellence in optimizing the interview process.",
+			"The Interview Scheduling Platform enhances the interview process by employing a Microservices Architecture. We Collaborated closely with a Mathworks representative as the sponsor of this project, We proceeded with a test driven approach utilizing jest and cypress for backend servers and frontend application respectively, The technology stack includes Next.js for the presentation layer, Express for scheduling server, Django for resume analysis OCR model, and a telegram chatbot using (PyBot) for conversational interfaces. Neo4j's graph database efficiently handles interconnected interview data. Google Cloud integrations (OAuth, Calendar, Mail, Sheets) empower seamless HR capabilities. Apollo Client ensures efficient GraphQL data management, and Apollo Server bridges the front end and Neo4j. The platform optimizes the interview lifecycle, making it robust, efficient, and user-friendly. We also established a robust CI/CD pipeline with Google Cloud Run, Cloud Build Triggers, and Cypress tests to ensure rigorous testing and scalable deployment."
+		],
+		"images":[
+			"./content/images/projects/interviewlink/1.webp",
+			"./content/images/projects/interviewlink/2.webp",
+			"./content/images/projects/interviewlink/3.webp",
+			"./content/images/projects/interviewlink/4.webp",
+			"./content/images/projects/interviewlink/5.webp",
+			"./content/images/projects/interviewlink/6.webp"
+		]
+	},
+	{
+		"title": "Event Management Application",
+		"links": [
+			{
+				"name": "Application Link",
+				"url": "https://vantage-app.vercel.app/"
+			},
+			{
+				"name": "Canva Design",
+				"url": "https://www.canva.com/design/DAFVNGGy6u4/qHosxjgt-vikPR8vXj9g-w/view?utm_content=DAFVNGGy6u4"
+			},
+			{
+				"name": "Figma",
+				"url": "https://www.figma.com/community/file/1231385716613578198"
+			},
+			{
+				"name": "GitHub",
+				"url": "https://github.com/VisShon/Vantage"
+			},
+			{
+				"name": "Documentation",
+				"url": "https://docs.google.com/document/d/1Etx8KSelzm1u8uRUH1JJS7g9UgKiZeaoQibiPxpcHDc/edit?usp=sharing"
+			}
+		],
+		"descriptions": [
+			"Deployed an advanced event management platform, incorporating technologies like NextJS, Neo4j, GraphQL, and Apollo client.",
+			"Established private routing and middleware to ensure secure access and efficient navigation.",
+			"Recognized as the 'Best in Usable Security' by a highly regarded IIITD professor, highlighting the exceptional quality and impact.",
+			"Vantage, the Event Management Application, presents a creative approach to enhance event organization. Designed with user-friendly principles in mind, the application leverages a GRAND stack to deliver seamless interaction and networking for event attendees. The choice of Neo4j as the database ensures efficient data management and retrieval, optimizing the platform for scalability and performance. Apollo Server serves as a robust backend is the best way to build a production-ready, self-documenting GraphQL API. Next.js contributes to the creation of a responsive frontend. Livepeer integration enables the live streaming of physical events, adding a layer of interactivity for remote participants. Recognized as the 'Best in Usable Security' by an esteemed IIITD professor."
+		],
+		"images":[
+			"./content/images/projects/vantage/1.webp",
+			"./content/images/projects/vantage/2.webp",
+			"./content/images/projects/vantage/3.webp",
+			"./content/images/projects/vantage/4.webp",
+			"./content/images/projects/vantage/5.webp",
+			"./content/images/projects/vantage/6.webp"
+		]
+	},
+	{
+		"title": "Bespoke AI",
+		"links": [
+			{
+				"name": "Canva Design",
+				"url": "https://www.canva.com/design/DAF0Rqnmcjs/LvwOlmrY_JDryF5upGT6Dg/view?utm_content=DAF0Rqnmcjs"
+			},
+			{
+				"name": "Market Research",
+				"url": "https://visshon.notion.site/visshon/Market-Research-BespokeAI-6ad2a3fcd9f949b6bdfe45245e6cdf60"
+			}
+		],
+		"descriptions": [
+			"Crafted the market study for Bespoke AI, a platform that democratizes AI by introducing customizable Language Models (LLMs) as a service (LaaS), aiming to bridge gaps in the AI landscape.",
+			"The product was aimed at  prevalent challenges faced by businesses in data organization, AI implementation, and appreciation of big data value. Identifying issues such as poor data quality, restricted AI access, and the complexities of existing models.",
+			"Bespoke AI project addressed prevalent challenges faced by businesses in data organization, AI implementation, and appreciation of big data value. Identifying issues such as poor data quality, restricted AI access, and the complexities of existing models, we innovatively proposed a solution. This platform democratizes AI by introducing customizable Language Models (LLMs) as a service (LaaS), aiming to bridge gaps in the AI landscape. Our solution features enhanced data integration with Google Sheets, an intuitively designed dashboard inspired by Notion, tailored and customizable models, dual access channels for flexibility, versatile visual representations, and scalable infrastructure. A SWOT analysis identified strengths in customization and usability, while opportunities lie in market expansion and addressing the AI infrastructure gap. The revenue model includes subscription-based plans, customized enterprise solutions, usage-based pricing, consulting services, premium support, and API access with integration fees."
+		],
+		"images":[
+			"./content/images/projects/bespokeAI/1.webp",
+			"./content/images/projects/bespokeAI/2.webp",
+			"./content/images/projects/bespokeAI/3.webp",
+			"./content/images/projects/bespokeAI/4.webp",
+			"./content/images/projects/bespokeAI/5.webp",
+			"./content/images/projects/bespokeAI/6.webp"
+		]
+	},
+	{
+		"title": "Active Learning and Teaching App",
+		"links": [
+			{
+				"name": "App Link", 
+				"url": "https://active-learning-and-teaching.github.io/"
+			},
+			{
+				"name": "Documentation", 
+				"url": "https://docs.google.com/document/d/13LjQn4TuMPAz_RVdKRr6QgK052nJ0kXSXHxDahLvgCI/edit?usp=sharing"
+			},
+			{
+				"name": "GitHub", 
+				"url": "https://github.com/Active-Learning-and-Teaching"
+			}
+		],
+		"descriptions": [
+			"Individual Project was done under the guidance of Prof Pankaj Jalote.",
+			"Designed and implemented new features for the application and managed releases.",
+			"Utilized React Native for a cross-platform mobile experience.",
+			"ALT (Active Learning and Teaching App) is an educational platform prioritizing active engagement and collaborative learning. Developed by Me and Rohan Dhar under the guidance of Prof Pankaj Jalote, the platform employed a Firebase Realtime Database and React Native for its infrastructure. We introduced practical features such as Teaching Assistant (TA) integration, fostering engaged problem-solving discussions. The technology stack was also overhauled, transitioning to functional components from an existing class-based structure, and adopting Firestore as the backend database for enhanced performance."
+		],
+		"images":[
+			"./content/images/projects/alt/1.webp",
+			"./content/images/projects/alt/2.webp",
+			"./content/images/projects/alt/3.webp"
+		]
+	},
+	{
+		"title": "IIITD Chat",
+		"links": [
+			{
+				"name": "Documentation", 
+				"url": "https://docs.google.com/document/d/1oM7bBTD2kqMvtl4l0PLFIdwUW-sjXCeJj1cNlBA22cA/edit?usp=sharing"
+			},
+			{
+				"name": "GitHub", 
+				"url": "https://github.com/Ambujbhaskar/IIITDchat"
+			},
+			{
+				"name": "Figma", 
+				"url": "https://www.figma.com/community/file/1115278369144963951"
+			}
+		],
+		"descriptions": [
+			"IIITDChat prioritizes data security and user interaction, providing IIIT Delhi students with a secure platform for group discussions, messaging, and collaborative task management.",
+			"The backend was powered by Node.js and MySQL, enables efficient data management, and employs React.js to deliver a responsive and user-friendly interface",
+			"IIITDChat is a messaging platform tailored for IIIT Delhi students, In our application students will be able to add tasks to the task list and do brainstorming on the jamboard part along with texting features. The frontend is developed using React.js, On the database side, the app uses MySQL. We used the concepts like indexing, triggers and mysql inbuilt function for query optimization. Node.js using Express.js framework is used as the backend technology. The app prioritizes data security using JWT authentication and authorization, The platform was hosted using Heroku(Until the free tier expired)"
+		],
+		"images":[
+			"./content/images/projects/iiitdChat/1.webp",
+			"./content/images/projects/iiitdChat/2.webp",
+			"./content/images/projects/iiitdChat/3.webp",
+			"./content/images/projects/iiitdChat/4.webp",
+			"./content/images/projects/iiitdChat/5.webp",
+			"./content/images/projects/iiitdChat/6.webp"
+		]
+	},
+	{
+		"title": "Potentio",
+		"links": [
+			{
+				"name": "Application Link", 
+				"url": "https://potentio-app.netlify.app/"
+			},
+			{
+				"name": "Canva Design", 
+				"url": "https://www.canva.com/design/DAFmw-mEnz0/6bnXu5L0W-leb-yD7qh9wA/view?utm_content=DAFmw-mEnz0"
+			},
+			{
+				"name": "Figma", 
+				"url": "https://www.figma.com/community/file/1115290658258783105/potentio"
+			},
+			{
+				"name": "Documentation", 
+				"url": "https://docs.google.com/document/d/1R4zWEz09ic19Bh_9gIb5BvbymSx-W8RX0lufLAu6roI/edit?usp=sharing"
+			},
+			{
+				"name": "GitHub", 
+				"url": "https://github.com/PotentioDev"
+			}
+		],
+		"descriptions": [
+			"Designed and Developed a collaborative community-based platform to address the challenges faced by students preparing for competitive examinations.",
+			"Utilized scenario-based design process to address challenges such as anxiety during exams, effective doubt resolution, and personalized topic-wise preparation.",
+			"Designed dynamic leaderboards that serve as more than a competition tool, providing a pathway for students to track their progress and achievements.",
+			"The collaborative community-based platform developed by my Team Distrack. In-depth User Research, one-to-one interviews, survey forms, and focus groups involving teachers and JEE passouts. Insights revealed the need for mentorship, time management, and innovative testing methods. The findings revealed the demand for mentorship, the need for effective time management, and the prevalence of cheating concerns in online testing platforms.Identified potential competitors like Vedantu and Doubtnut lack gamification elements, providing an opportunity to distinguish the platform through dynamic leaderboards, mentorship programs, and user incentives. Scenario-Based Approach: Through scenarios, the platform envisions addressing specific challenges faced by students such as anxiety management during exams, effective doubt resolution, and tailored topic-wise preparation."
+		],
+		"images":[
+			"./content/images/projects/potentio/1.webp",
+			"./content/images/projects/potentio/2.webp",
+			"./content/images/projects/potentio/3.webp",
+			"./content/images/projects/potentio/4.webp",
+			"./content/images/projects/potentio/5.webp",
+			"./content/images/projects/potentio/6.webp"
+		]
+	},
+	{
+		"title": "Unnati",
+		"links": [
+			{
+				"name": "Canva Design", 
+				"url": "https://www.canva.com/design/DAEyhYX261E/Iu9uFgG1fvu0ircN0Tn4xg/view?utm_content=DAEyhYX261E"
+			}
+		],
+		"descriptions": [
+			"Designed a mental health support platform featuring an AI-driven chatbot, providing a safe and anonymous space for micro group engagements",
+			"Navigated the complexities of mental health support, employing design processes, conducting user surveys and empathy mapping to understand the nuanced needs of our target audience.",
+			"Unnati, our innovative mental health support platform, offers a host of unique features designed to create a safe and anonymous space for individuals to share their feelings and find solace.Drawing inspiration from the legendary tale of King Vikramaditya and Betaal, we conceptualized Vetal, a dynamic chatbot functioning as both a supportive companion and an insightful moderator. Vetal is an AI-driven companion that functions as both a conversational partner and a helpful moderator. Through intuitive pseudo-questions, users engage in micro-groups, facilitating focused discussions on specific topics like peer pressure or academic stress. The beauty of the platform lies in its simplicity, fostering genuine human connections. With Vetal's dynamic role as a relatable friend, storyteller, or moderator. During the Unnati design project, our team navigated the complexities of mental health support, employing design processes, conducting user surveys and empathy mapping to understand the nuanced needs of our target audience, primarily those under 30. The design process unfolded incorporating elements of introspection, clarity, and symbiosis."
+		],
+		"images":[
+			"./content/images/projects/unnati/1.webp",
+			"./content/images/projects/unnati/2.webp",
+			"./content/images/projects/unnati/3.webp",
+			"./content/images/projects/unnati/4.webp",
+			"./content/images/projects/unnati/5.webp",
+			"./content/images/projects/unnati/6.webp"
+		]
+	},
+	{
+		"title": "Eclat",
+		"links": [
+			{
+				"name": "Canva Design", 
+				"url": "https://www.canva.com/design/DAF4IJmb2dM/a8UVqrVAo45YEfwC2_0pwQ/view?utm_content=DAF4IJmb2dM"
+			},
+			{
+				"name": "Adobe XD", 
+				"url": "https://xd.adobe.com/view/62fc2617-7ba1-4770-a161-4f463a13dfc2-37af/grid/"
+			}
+		],
+		"descriptions": [
+			"Designed an inclusive support platform that fosters a vibrant community for parents of children with learning disabilities, promoting shared experiences",
+			"Conducted market analysis, brand development, and the design of an app using software like Illustrator and Adobe XD.",
+			"In the project 'éclat,' our goal was to address the pressing issue of the lack of support for parents of children with learning disabilities. Recognizing the challenges faced by these parents and the social stigma associated with learning disabilities, we conceptualized éclat as a holistic platform. Our comprehensive approach involved market analysis, brand development, and the design of an app aimed at creating a supportive community. Through features like playdates and parent-only meetings, éclat tries to foster genuine connections among parents and children dealing with learning disabilities. The visual identity, characterized by a logo with a Traffic Marker font and a Minion Variable Concept tagline, uses a purposeful color palette of purple, blue, and pink. The communication strategy includes social media, awareness workshops, and traditional advertising. Our app prototype, designed using Adobe XD, incorporates a sans-serif rounded Quicksand font and a user-friendly interface."
+		],
+		"images":[
+			"./content/images/projects/eclat/1.webp",
+			"./content/images/projects/eclat/2.webp",
+			"./content/images/projects/eclat/3.webp",
+			"./content/images/projects/eclat/4.webp",
+			"./content/images/projects/eclat/5.webp",
+			"./content/images/projects/eclat/6.webp"
+		]
+	},
+	{
+		"title": "Quizzler",
+		"links": [
+			{
+				"name": "Figma", 
+				"url": "https://www.figma.com/community/file/1115290469420160893"
+			}
+		],
+		"descriptions": [
+			"Created the design system for a quizzing platform, as a part of a 3-day UI design challenge in our college."
+		],
+		"images":[
+			"./content/images/projects/quizzler/1.webp",
+			"./content/images/projects/quizzler/2.webp",
+			"./content/images/projects/quizzler/3.webp",
+			"./content/images/projects/quizzler/4.webp",
+			"./content/images/projects/quizzler/5.webp",
+			"./content/images/projects/quizzler/6.webp"
+		]
+	},
+	{
+		"title": "HCD IIITD Website",
+		"links": [
+			{
+				"name": "Website Link", 
+				"url": "https://hcd.iiitd.ac.in/"
+			},
+			{
+				"name": "GitHub", 
+				"url": "https://github.com/VisShon/HCD"
+			},
+			{
+				"name": "Figma", 
+				"url": "https://www.figma.com/community/file/1115290531089636223"
+			}
+		],
+		"descriptions": [
+			"Designed and developed the website for the department of human centric design IIITD",
+			"Developing the website from scratch leading a team of 5 members using tools of MERN stack.",
+			"Utilized technologies like React.js, Node.js and Figma for creating dynamic and responsive UI"
+		],
+		"images":[
+			"./content/images/projects/hcd/1.webp",
+			"./content/images/projects/hcd/2.webp",
+			"./content/images/projects/hcd/3.webp",
+			"./content/images/projects/hcd/4.webp",
+			"./content/images/projects/hcd/5.webp",
+			"./content/images/projects/hcd/6.webp"
+		]
+	},
+	{
+		"title": "BusinessCard NFT",
+		"links": [
+			{
+				"name": "Figma", 
+				"url": "https://www.figma.com/community/file/1155906497078898846"
+			}
+		],
+		"descriptions": [
+			"Designed an NFT based business card platform for a freelance project", 
+			"The project involved crafting a user-flow and producing a comprehensive Hi-Fi prototype using Figma."
+		],
+		"images":[
+			"./content/images/projects/quizzler/1.webp",
+			"./content/images/projects/quizzler/2.webp",
+			"./content/images/projects/quizzler/3.webp",
+			"./content/images/projects/quizzler/4.webp",
+			"./content/images/projects/quizzler/5.webp",
+			"./content/images/projects/quizzler/6.webp"
+		]
+	}
+]
+  

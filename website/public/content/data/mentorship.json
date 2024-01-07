@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Cloud Facilitator, Google Cloud Study Jams ‘23",
+        "descriptions": [
+            "Google Cloud Study Jams is a month-long initiative by Google that provides college students a unique opportunity to gain hands-on experience with the pivotal cloud technologies that underpin today's industry.",
+            "As an organizer, I orchestrated Cloud Study Jams at our college, witnessing an impressive turnout of over 300+ eager participants. Within this program, two tracks were provided: Gen AI Arcade Game and Google Cloud Computing Foundations.",
+            "Beyond numbers, I focused on building awareness about this campaign within my campus. Through strategic efforts, we garnered registrations from more than 300 students, ultimately shortlisting an exceptional pool of 180 participants.",
+            "To ensure everyone had a fair shot at success, I conducted comprehensive online training sessions. These took the form of engaging workshops and informative Q&A sessions, aimed at equipping participants with a solid grasp of the concepts and the ability to implement solutions proficiently.",
+            "The impact was profound, with over 60 individuals completing both tracks and an impressive 90+ completing the Gen AI track."
+        ]
+    },
+    {
+        "title": "IIITD Student Mentor",
+        "descriptions": [
+            "I took on the role of a mentor for a tight-knit group of five first-year students, providing them with invaluable support and guidance as they navigated their initial year of college life.",
+            "To foster deeper connections and more personalized guidance, I organized in-person sessions with my mentees.",
+            "This mentorship was part of the Student Mentorship Program (SMP) at IIIT Delhi, a vital initiative focused on fostering a positive and constructive environment for junior students through the guidance and mentorship of their more experienced peers. The program was designed to facilitate meaningful interactions, offer crucial advice, and create a supportive community within the student body."
+        ]
+    },
+    {
+        "title": "Teaching Assistant Design Processes and Perspectives",
+        "descriptions": [
+            "Working alongside Professor Amit Sabherwal was a real eye-opener. We dived into the world of design, exploring everything from crafting micro systems to mastering human-computer interactions, services. It was a journey that truly spanned the entire spectrum of design evolution.",
+            "But it wasn't just theory. I made sure students got their hands dirty, guiding them through the process of creating projects that not only met the submission criteria but also packed a punch in terms of creativity and functionality. It was a great learning experience all around!"
+        ]
+    },
+    {
+        "title": "Teaching Assistant Visual Design and Communication",
+        "descriptions": [
+            "Collaborating closely with Dr. Richa Gupta, I helped familiarize students with the intricate science of Visual Communication. The curriculum covered various topics, including visual perception, Gestalt laws of organization, semantics, and the workings of both short-term and long-term memory.",
+            "Besides lectures, I acted as a guiding hand for student teams working on their projects. I made sure they not only ticked all the boxes in execution but also stayed true to the core principles of impactful visual communication. Together, we turned classroom lessons into tangible design magic!"
+        ]
+    }
+]

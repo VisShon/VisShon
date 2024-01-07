@@ -9,9 +9,6 @@ import Tabs from "./components/Navbar/Tabs"
 
 import Home from "./pages/Home"
 import Dashboard from "./pages/Dashboard"
-import Community from "./pages/Community"
-import Project from "./pages/Project"
-import Award from "./pages/Award"
 
 import "./styles/index.css"
 import ScrollContainer from "./components/ScrollContainer"
@@ -21,16 +18,13 @@ root.render(
 	<BrowserRouter>
 
 		<Avaibility/>
-		{/* <ScrollContainer> */}
+		<ScrollContainer>
 			<Navbar/>
 			<Routes>
 				<Route path="/" element={<Home/>} />
 				<Route path="/dashboard" element={<Dashboard/>} />
-				<Route path="/community/:id" element={<Community/>} />
-				<Route path="/project/:id" element={<Project/>} />
-				<Route path="/award/:id" element={<Award/>} />
 			</Routes>
-		{/* </ScrollContainer> */}
+		</ScrollContainer>
 
 		{/* <Footer /> */}
 		{/* <Tabs /> */}

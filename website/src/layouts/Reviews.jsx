@@ -16,7 +16,7 @@ function Reviews() {
 				</h2>
 				<img
 					className="absolute -bottom-5 ml-[30%]"
-					src="./comma.svg"
+					src="./others/comma.svg"
 				/>
 			</div>
 

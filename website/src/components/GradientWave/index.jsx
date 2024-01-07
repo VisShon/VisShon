@@ -33,27 +33,27 @@ function Index() {
 		animate(
 			".left",
 			{
-				height:["80vh","90vh","80vh"],
+				height:["90vh","100vh","90vh"],
 				background:[
 					"linear-gradient(180deg, #190736 0%, #8F5BD4 15%, #C387FF 35%, #FC8EDD 65%, #FF519A 75%, #B40056 90%, #2E061C 100%)",
 					"linear-gradient(180deg, #190736 16%, #8F5BD4 27%, #C387FF 47%, #FC8EDD 53%, #FF519A 63%, #B40056 78%, #2E061C 95%)",
 					"linear-gradient(180deg, #190736 0%, #8F5BD4 15%, #C387FF 35%, #FC8EDD 65%, #FF519A 75%, #B40056 90%, #2E061C 100%)",
 				]
 			},
-			{repeat:Infinity, ease: "easeInOut", duration:5, delay:stagger(0.8, { startDelay: 0.4 })}
+			{repeat:Infinity, ease: "easeInOut", duration:5, delay:stagger(0.7, { startDelay: 0.4 })}
 		)
 
 		animate(
 			".right",
 			{
-				height:["80vh","95vh","80vh"],
+				height:["90vh","105vh","90vh"],
 				background:[
 					"linear-gradient(180deg, #190736 0%, #8F5BD4 15%, #C387FF 35%, #FC8EDD 65%, #FF519A 75%, #B40056 90%, #2E061C 100%)",
 					"linear-gradient(180deg, #190736 16%, #8F5BD4 27%, #C387FF 47%, #FC8EDD 53%, #FF519A 63%, #B40056 78%, #2E061C 95%)",
 					"linear-gradient(180deg, #190736 0%, #8F5BD4 15%, #C387FF 35%, #FC8EDD 65%, #FF519A 75%, #B40056 90%, #2E061C 100%)",
 				]
 			},
-			{repeat:Infinity, ease: "easeInOut", duration:5, delay:stagger(0.8, { startDelay: 0.4, from:"last"})}
+			{repeat:Infinity, ease: "easeInOut", duration:5, delay:stagger(0.7, { startDelay: 0.4, from:"last"})}
 		)
 
 		animate(
@@ -72,7 +72,7 @@ function Index() {
 
 			<img 
 				className="w-full h-[100vh] absolute top-0 z-10 object-cover bg-['linear-gradient(0deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.10) 100%)']" 
-				src="./noise.svg"
+				src="./others/noise.svg"
 			/>
 
 			<div 
@@ -85,7 +85,7 @@ function Index() {
 						y:wabbitScroll,
 						opacity:wabbitOpacity
 					}}
-					src="./wabbit.png"
+					src="./others/wabbit.png"
 				/>
 
 				{focus?
@@ -95,7 +95,7 @@ function Index() {
 						y:wabbitScroll,
 						opacity:wabbitOpacity
 					}}
-					src="/burstbubblegum.svg"
+					src="/others/burstbubblegum.svg"
 				/>:
 				<motion.img
 					className="gum absolute top-[30%] -right-2 z-20 w-[30%] cursor-pointer select-none"
@@ -103,7 +103,7 @@ function Index() {
 						y:wabbitScroll,
 						opacity:wabbitOpacity
 					}}
-					src="/bubblegum.svg"
+					src="/others/bubblegum.svg"
 				/>}
 
 
@@ -119,9 +119,15 @@ function Index() {
 				<li className="left w-[30%]"/>
 				<li className="left w-[30%]"/>
 				<li className="left w-[30%]"/>
+				<li className="left w-[30%]"/>
+				<li className="left w-[30%]"/>
+				<li className="left w-[30%]"/>
 
 
 
+				<li className="right w-[30%]"/>
+				<li className="right w-[30%]"/>
+				<li className="right w-[30%]"/>
 				<li className="right w-[30%]"/>
 				<li className="right w-[30%]"/>
 				<li className="right w-[30%]"/>
