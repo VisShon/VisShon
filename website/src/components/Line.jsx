@@ -1,4 +1,3 @@
-import React from 'react'
 import { useScroll,useSpring,useTransform,stagger,motion } from "framer-motion"
 function Line({children,base,index}) {
 	const { scrollY } = useScroll()

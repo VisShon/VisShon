@@ -2,7 +2,6 @@ import ReactDOM from "react-dom/client"
 import { Route, Routes, BrowserRouter } from "react-router-dom"
 
 import Navbar from "./components/Navbar"
-import Avaibility from "./components/Navbar/Avaibility"
 import Footer from "./components/Footer"
 import Tabs from "./components/Navbar/Tabs"
 
@@ -16,8 +15,7 @@ import ScrollContainer from "./components/ScrollContainer"
 const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(
 	<BrowserRouter>
-
-		<Avaibility/>
+	
 		<ScrollContainer>
 			<Navbar/>
 			<Routes>

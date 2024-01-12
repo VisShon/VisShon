@@ -21,10 +21,10 @@ module.exports = {
     },
     screens: {
       "small":{
-        "max":"800px"
+        "max":"1030px"
       },
       "large":{
-        "min":"800px"
+        "min":"1030px"
       }
     },
     extend: {
