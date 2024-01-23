@@ -1,5 +1,4 @@
 import ReactDOM from "react-dom/client"
-import { SpeedInsights } from '@vercel/speed-insights/next';
 
 import Home from "./pages/Home"
 import Navbar from "./components/Navbar"
@@ -24,6 +23,5 @@ root.render(
 			<Home/>
 			<Footer/>
 		</ReactLenis>
-		<SpeedInsights />
 	</>
 )
