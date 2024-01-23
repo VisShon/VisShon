@@ -6,7 +6,7 @@ function Line({children,base,index}) {
 		damping: 30,
 		restDelta: 0.01,
 	})
-	const textScroll = useTransform(springScroll,[0,1200],[base*2,0])
+	const textScroll = useTransform(springScroll,[500,1300],[base*2,0])
 	const textOpacity = useTransform(springScroll,[0,1200],[0,1],{clamp: false})
 
 	return (

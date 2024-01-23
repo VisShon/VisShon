@@ -1,5 +1,4 @@
 import { useState } from "react"
-import { Link } from "react-router-dom"
 import { useScroll,useSpring,useTransform,motion } from "framer-motion"
 
 import GradientWave from "../components/GradientWave"
@@ -24,14 +23,14 @@ function Hero() {
 
 
 	return (
-		<div className="relative w-full h-fit flex flex-col justify-start items-center">
+		<div className="relative w-full h-fit flex flex-col justify-start items-center pt-32  snap-center">
 			
 			<Title/>
 			<GradientWave/>
 			<Wabbit/>
 
 			<motion.div 
-				className="text-grey small:text-chalk text-[1em] small:text-[0.85em] font-mada font-[400] flex  small:flex-row-reverse justify-between w-full p-10 small:p-5 items-end absolute small:top-[26%] large:bottom-[28%]"
+				className="text-grey small:hidden text-[1em] font-mada font-[400] flex justify-between w-full p-10  items-end absolute  large:bottom-[28%]"
 				style={{
 					filter:`blur(${blur}px)`
 				}}
@@ -46,12 +45,12 @@ function Hero() {
 				</div>
 
 				<div className="w-fit flex flex-col right-0 gap-5 small:hidden">
-					<Link 
+					<a
 						className="relative hover:text-[#CCCFD4] transition-all"
 						target="_blank"
 						onMouseEnter={()=>setLinkSelected(1)}
 						onMouseLeave={()=>setLinkSelected(0)}
-						to="https://www.facebook.com/hcdiiitd/photos/3283459738578121/?paipv=0&eav=AfbJyIIwVX-zQRLBd9lIKcHDOF-EMF_S6VPrUes4f2yjkS6F26GRJPozk3PLblQ27Hw&_rdr">
+						href="https://www.facebook.com/hcdiiitd/photos/3283459738578121/?paipv=0&eav=AfbJyIIwVX-zQRLBd9lIKcHDOF-EMF_S6VPrUes4f2yjkS6F26GRJPozk3PLblQ27Hw&_rdr">
 
 							{linkSelected==1&&
 							<img
@@ -61,14 +60,14 @@ function Hero() {
 							<p>Bounty Winner,</p>
 							<p>Polygon Buidlit</p>
 							<p>Hackathon</p>							
-					</Link>
+					</a>
 
-					<Link 
+					<a
 						className="relative hover:text-[#CCCFD4] transition-all"
 						target="_blank"
 						onMouseEnter={()=>setLinkSelected(2)}
 						onMouseLeave={()=>setLinkSelected(0)}
-						to="https://ethglobal.com/showcase/alkynefi-nampv">
+						href="https://ethglobal.com/showcase/alkynefi-nampv">
 
 							{linkSelected==2&&
 							<img
@@ -78,7 +77,7 @@ function Hero() {
 							<p>Bounty Winner,</p>
 							<p>Ethereum India</p>
 							<p>Hackathon</p>	
-					</Link>
+					</a>
 					
 				</div>
 			</motion.div>

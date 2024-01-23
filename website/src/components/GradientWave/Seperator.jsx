@@ -42,19 +42,19 @@ function Seperator({top,bottom}) {
 			},
 			{repeat:Infinity, ease: "easeInOut", duration:5, delay:stagger(0.8, { startDelay: 0.4, from:"last"})}
 		)
-	}, [])
+	}, [animate,bottom])
 
 
 	return (
 		<div 
-			className="w-full relative flex flex-col justify-start items-center h-[15vh] select-none"
+			className="w-full relative flex flex-col justify-start items-center h-[10em] select-none"
 		>
 			<img 
-				className="w-full h-[15vh] absolute top-0 z-10 object-cover bg-['linear-gradient(0deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.10) 100%)']" 
+				className="w-full h-full absolute top-0 z-10 object-cover bg-['linear-gradient(0deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.10) 100%)']" 
 				src="./others/seperatorNoise.svg"
+				alt="noise"
 			/>
 	
-			{top&&
 			<ul className="w-full flex h-full" ref={scope}>
 				<li className="left h-full w-[30%]"/>
 				<li className="left h-full w-[30%]"/>
@@ -75,30 +75,7 @@ function Seperator({top,bottom}) {
 				<li className="right h-full w-[30%]"/>
 				<li className="right h-full w-[30%]"/>
 				<li className="right h-full w-[30%]"/>
-			</ul>}
-
-			{bottom&&
-			<ul className="w-full flex h-full" ref={scope}>
-				<li className="left h-full w-[30%]"/>
-				<li className="left h-full w-[30%]"/>
-				<li className="left h-full w-[30%]"/>
-				<li className="left h-full w-[30%]"/>
-				<li className="left h-full w-[30%]"/>
-				<li className="left h-full w-[30%]"/>
-				<li className="left h-full w-[30%]"/>
-				<li className="left h-full w-[30%]"/>
-
-
-
-				<li className="right h-full w-[30%]"/>
-				<li className="right h-full w-[30%]"/>
-				<li className="right h-full w-[30%]"/>
-				<li className="right h-full w-[30%]"/>
-				<li className="right h-full w-[30%]"/>
-				<li className="right h-full w-[30%]"/>
-				<li className="right h-full w-[30%]"/>
-				<li className="right h-full w-[30%]"/>
-			</ul>}
+			</ul>
 
 		</div>
 	)

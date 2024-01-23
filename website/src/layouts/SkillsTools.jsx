@@ -3,11 +3,11 @@ import Seperator from "../components/GradientWave/Seperator"
 function SkillsTools() {
 
 	return (
-		<div className="w-screen h-screen relative px-48 flex flex-col items-center justify-between select-none font-mada text-grey font-[400] gap-20">
+		<div className="w-screen h-fit relative px-48 small:px-0 flex flex-col items-center small:items-end justify-between select-none font-mada text-grey font-[400] gap-20 snap-center bg-chalk">
 
-			<div className="flex text-4xl justify-between w-full text-right py-20">
-				<div className="flex flex-col">
-					<h2 className="text-charcoal text-5xl">Frameworks</h2>
+			<div className="large:flex text-4xl small:px-10 small:text-base justify-between w-full text-right py-20 small:py-0 small:grid small:grid-cols-2 small:gap-4">
+				<div className="small:w-[70%] large:text-[1.75vw]">
+					<h2 className="text-charcoal text-[2.5vw]  small:text-[3vh]">Frameworks</h2>
 					<p>NEXTJs</p>
 					<p>ReactJs</p>
 					<p>ReactNative</p>
@@ -18,8 +18,8 @@ function SkillsTools() {
 					<p>Redux</p>
 				</div>
 
-				<div>
-					<h2 className="text-charcoal text-5xl">Languages</h2>
+				<div className="small:w-[70%] large:text-[1.75vw]">
+					<h2 className="text-charcoal text-[2.5vw]  small:text-[3vh]">Languages</h2>
 					<p>JavaScript</p>
 					<p>TypeScript</p>
 					<p>GraphQL</p>
@@ -29,8 +29,8 @@ function SkillsTools() {
 					<p>SQL</p>
 				</div>
 
-				<div>
-					<h2 className="text-charcoal text-5xl">Platforms</h2>
+				<div className="small:w-[70%] large:text-[1.75vw]">
+					<h2 className="text-charcoal text-[2.5vw]  small:text-[3vh]">Platforms</h2>
 					<p>Google Cloud</p>
 					<p>Firebase</p>
 					<p>Moralis</p>
@@ -41,8 +41,8 @@ function SkillsTools() {
 					<p>Moz</p>
 				</div>
 
-				<div>
-					<h2 className="text-charcoal text-5xl">Databases</h2>
+				<div className="small:w-[70%] large:text-[1.75vw]">
+					<h2 className="text-charcoal text-[2.5vw]  small:text-[3vh]">Databases</h2>
 					<p>PostgreSQL</p>
 					<p>Firestore</p>
 					<p>MongoDB</p>
@@ -53,7 +53,7 @@ function SkillsTools() {
 				</div>
 			</div>
 
-			<p className="w-[30%] self-start">
+			<p className="w-[35%] small:-mb-10 small:text-sm self-start small:self-center small:text-center small:w-full">
 				Through lines of code, a brand comes to life,<br/>
 				In the realm of tech, I conquer the strife. <br/>
 				If you seek a creator, passionate and true, <br/>

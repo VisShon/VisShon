@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 import { useState } from "react"
 import { motion } from "framer-motion"
 
@@ -27,54 +26,54 @@ function Linktree() {
 					}}
 					className="grid grid-cols-2  bg-charcoal bg-opacity-50 relative top-5 p-5  text-left rounded-sm justify-center  text-chalk gap-5 w-[12rem] small:w-[10rem] small">
 
-					<Link
+					<a
 						className="hover:text-charcoal transition-all" 
 						target="_blank"
-						to={"https://github.com/VisShon"}>
+						href={"https://github.com/VisShon"}>
 						Github
-					</Link>
+					</a>
 
-					<Link
+					<a
 						className="hover:text-charcoal transition-all" 
 						target="_blank"
-						to={"https://www.linkedin.com/in/vishnu-shon-079007202/"}>
+						href={"https://www.linkedin.com/in/vishnu-shon-079007202/"}>
 						LinkedIn
-					</Link>
+					</a>
 
-					<Link
+					<a
 						className="hover:text-charcoal transition-all" 
 						target="_blank"
-						to={"https://www.figma.com/@VisShon"}>
+						href={"https://www.figma.com/@VisShon"}>
 						Figma
-					</Link>
+					</a>
 
-					<Link
+					<a
 						className="hover:text-charcoal transition-all" 
 						target="_blank"
-						to={"https://www.instagram.com/visshon/"}>
+						href={"https://www.instagram.com/visshon/"}>
 						Instagram
-					</Link>
+					</a>
 
-					<Link
+					<a
 						className="hover:text-charcoal transition-all" 
 						target="_blank"
-						to={"https://twitter.com/ShonVishnu"}>
+						href={"https://twitter.com/ShonVishnu"}>
 						Twitter
-					</Link>
+					</a>
 
-					<Link
+					<a
 						className="hover:text-charcoal transition-all" 
 						target="_blank"
-						to={"https://t.me/VShon1"}>
+						href={"https://t.me/VShon1"}>
 						Telegram
-					</Link>
+					</a>
 
-					<Link
+					<a
 						className="hover:text-charcoal transition-all" 
 						target="_blank"
-						to={"https://discord.com/channels/0xvishnu"}>
+						href={"https://discord.com/channels/0xvishnu"}>
 						Discord
-					</Link>
+					</a>
 				</motion.div>
 			</button>
 		</>

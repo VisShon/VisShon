@@ -39,6 +39,8 @@ module.exports = {
         'mentorshipBg': "url('/public/others/mentorshipBg.png')",
         'awardsBg': "url('/public/others/awardsBg.png')",
         'projectBg': "url('/public/others/projectBg.png')",
+        'tunnelBg': "url('/public/others/tunnelBg.png')",
+        'noise': "url('/public/others/noise.svg')",
       }
     }
   },

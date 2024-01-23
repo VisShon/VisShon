@@ -1,18 +1,39 @@
-import { useScroll,useSpring,useTransform,motion, useMotionValue } from "framer-motion"
+import { motion } from "framer-motion"
+import { useState,useEffect } from "react"
 
-function ScrollBanner({bg,onScroll,dark}) {
 
-	const bannerBgPos = useMotionValue(0)
+function ScrollBanner({bg,bgColor,bottom}) {
+
+	const [progress, setProgress] = useState(0)
+
+	useEffect(() => {
+		const intervalId = setInterval(() => {
+				setProgress((prevProgress) => prevProgress + 1)
+		},10)
+		return () => clearInterval(intervalId)
+	}, [progress])
+
+	const variants ={
+		0:"absolute -bottom-20",
+		1:"relative",
+	}
+
 
 	return (
 		<motion.div 
-			className="w-full h-[5rem] bg-repeat-x bg-center" 
-			layout
-			animate={
-				dark?
-				{backgroundImage:"url(./bannerDark.svg",backgroundColor:"#1F1F1F"}:
-				{backgroundImage:"url(./bannerLight.svg)",backgroundColor:"#F4F9FF"}
-			}
+			className={`w-full h-[5rem] ${bottom?variants[0]:variants[1]} bg-repeat-x`} 
+			style={{
+				backgroundPositionX:progress+"px"
+
+			}}
+			animate={{
+				backgroundImage:bg,
+				backgroundColor:bgColor,
+			}}
+			transition={{
+				dduration: 0.5,
+				ease:"easeInOut",
+			}}
 		>
 		</motion.div>
 	)

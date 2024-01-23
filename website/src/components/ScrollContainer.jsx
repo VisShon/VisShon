@@ -1,7 +1,7 @@
 import  { useState, useRef, useCallback, useLayoutEffect, useEffect } from "react"
 import { useMotionValue, useSpring, motion } from "framer-motion"
 import ResizeObserver from "resize-observer-polyfill"
-  
+
 const ScrollContainer = ({ children }) => {
 
 	const [contentHeight, setContentHeight] = useState(window.innerHeight)
@@ -17,6 +17,7 @@ const ScrollContainer = ({ children }) => {
 			setContentHeight(entryHeight)
 		}
 	}, [])
+
 
 	useLayoutEffect(() => {
 		const scrollContainer = scrollContainerRef.current

@@ -2,97 +2,48 @@ import { useState } from "react";
 import { motion } from "framer-motion"
 
 import ProjectTile from "../components/ProjectTile"
-import ProjectCard from "../components/ProjectCard"
+import projects from "../content/data/project.json"
 
 function Projects() {
 
-	const [selected,setSelected] = useState("GRID")
+	const [selected,setSelected] = useState("LIST")
 
 	return (
-		<div className="w-screen h-fit relative p-48 pt-24 flex flex-col items-center select-none font-mada text-charcoal font-[400] gap-20 justify-between bg-chalk">
+		<div className="w-screen h-fit relative p-48 small:p-2 pt-2 4 flex flex-col items-center select-none font-mada text-charcoal font-[400] gap-20 justify-between bg-chalk  snap-center small:pb-20 small:pt-20">
 
-			<div className="text-4xl w-full self-start capitalize flex relative items-center justify-between ">
+			<div className="text-4xl w-full self-start capitalize flex relative items-center justify-between 																																				">
 
 				<h2 
-					className="w-[25%]"
+					className="w-[25%] small:w-full"
 				>
 					From pixel to prototype, 
 					each project is a canvas of innovation
 				</h2>
 
-				<div className="w-[30%] text-sm flex flex-col items-end gap-5">
-					<div 
-						className="flex justify-between  border-[1.5px] rounded-3xl"
-					>
-						<button 
-							className="px-5 rounded-full relative flex justify-center items-center z-20"
-							onClick={()=>setSelected("GRID")}
-							style={selected=="GRID"?{color: "#FFFFFF"}:{}}
-						>
-							<p 
-								layout 
-								className="z-20 relative transition-all"
-							>
-								GRID
-							</p>
-
-							{selected=="GRID"?
-							<motion.div 
-								className="bg-charcoal w-full h-full absolute top-0 rounded-full z-0"
-								layoutId="underline"
-							/>:null}
-						</button>
-
-						<button 
-							className="px-5 rounded-full relative flex justify-center items-center z-10"
-							onClick={()=>setSelected("LIST")}
-							style={selected=="LIST"?{color: "#FFFFFF"}:{}}
-						>
-							<p 
-								layout 
-								className="z-20 relative transition-all"
-							>
-								LIST
-							</p>
-							{selected=="LIST"?
-							<motion.div 
-								className="bg-charcoal w-full h-full absolute top-0 rounded-full z-0"
-								layoutId="underline"
-							/>:null}
-						</button>
-					</div>
-
-
+				<div className="w-[30%] text-sm flex flex-col items-end gap-5 small:hidden">
 					<p className="text-base text-right">
-						Vishnu"s project portfolio is a testament 
+						Vishnu's project portfolio is a testament 
 						to his boundless creativity and technical prowess.
 					</p>
 				</div>
 
 			</div>
 
-			{selected=="LIST"?
-				<div className="w-full flex flex-col">
-					<ProjectTile/>
-					<ProjectTile/>
-					<ProjectTile/>
-					<ProjectTile/>
-					<ProjectTile/>
-				</div>:
-
-				<div className="w-full flex gap-10 flex-wrap">
-					<ProjectCard 
-					/>
-					<ProjectCard 
-					/>
-					<ProjectCard 
-					/>
-					<ProjectCard 
-					/>
-					<ProjectCard 
-					/>
-				</div>
-			}
+			<div className="w-full flex flex-col">
+				{projects?.slice(0,10)?.map(
+					(project,index)=>(
+						<ProjectTile
+							key={index}
+							index={index}
+							title={project.title}
+							project={project}
+							descriptions={project.descriptions}
+							image={project.images[0]}
+							links={project.links}
+						/>
+					)
+				)}
+			</div>
 
 		</div>
 	)

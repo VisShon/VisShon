@@ -1,31 +1,27 @@
 import ReactDOM from "react-dom/client"
-import { Route, Routes, BrowserRouter } from "react-router-dom"
-
-import Navbar from "./components/Navbar"
-import Footer from "./components/Footer"
-import Tabs from "./components/Navbar/Tabs"
-
 
 import Home from "./pages/Home"
-import Dashboard from "./pages/Dashboard"
+import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
 
 import "./styles/index.css"
-import ScrollContainer from "./components/ScrollContainer"
+import { ReactLenis } from '@studio-freight/react-lenis'
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
+
 root.render(
-	<BrowserRouter>
-	
-		<ScrollContainer>
+	<>
+		<ReactLenis 
+			options={{
+				smoothWheel: true,
+				duration: 5,
+				lerp:0.03,
+				easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+			}} 
+			root={root}>
 			<Navbar/>
-			<Routes>
-				<Route path="/" element={<Home/>} />
-				<Route path="/dashboard" element={<Dashboard/>} />
-			</Routes>
-		</ScrollContainer>
-
-		{/* <Footer /> */}
-		{/* <Tabs /> */}
-
-	</BrowserRouter>
+			<Home/>
+			<Footer/>
+		</ReactLenis>
+	</>
 )

@@ -1,4 +1,3 @@
-import {Link} from "react-router-dom"
 
 function Tabs() {
 
@@ -11,29 +10,29 @@ function Tabs() {
 						className="h-[10%]" 
 						src="./logo.svg"
 					/>
-					<Link
+					<a
 						className="hover:opacity-100 opacity-95" 
-						to={"/dashboard"}>
+						href={"/dashboard"}>
 						<img src="./others/dashboard.svg"/>
-					</Link>
+					</a>
 				</div>
 
-				<Link 
+				<a 
 					className=" hover:text-ivory transition-colors"
-					to={"#home"}>Home
-				</Link>
-				<Link 
+					href={"#home"}>Home
+				</a>
+				<a 
 					className=" hover:text-ivory transition-colors"
-					to={"#works"}>Works
-				</Link>
-				<Link 
+					href={"#works"}>Works
+				</a>
+				<a 
 					className=" hover:text-ivory transition-colors"
-					to={"#projects"}>Projects
-				</Link>
-				<Link 
+					href={"#projects"}>Projects
+				</a>
+				<a 
 					className=" hover:text-ivory transition-colors"
-					to={"mailto:vshon447@gmail.com"}>Lets Talk
-				</Link>
+					href={"mailto:vshon447@gmail.com"}>Lets Talk
+				</a>
 			</div>
 		</div>
 	)

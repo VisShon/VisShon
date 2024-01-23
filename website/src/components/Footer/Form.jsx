@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 
 function Form() {
 	return (
@@ -23,8 +22,8 @@ function Form() {
 				<div>
 					<p></p>
 					<div>
-						<Link></Link>
-						<Link></Link>
+						<a></a>
+						<a></a>
 					</div>
 				</div>
 			</div>
