@@ -55,6 +55,7 @@ function Home() {
 
 	return (
 		<>
+			
 			{
 				progress!==100&&
 				<Loading
