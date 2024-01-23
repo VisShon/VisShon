@@ -13,7 +13,7 @@
   display:none;
 }
 .bluewash{
-    filter: sepia(85%) hue-rotate(220deg) saturate(500%);
+    filter: sepia(80%) hue-rotate(210deg) saturate(600%);
 }
 body {
   width: 100vw;

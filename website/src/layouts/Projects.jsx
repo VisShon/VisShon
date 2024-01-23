@@ -11,7 +11,7 @@ function Projects() {
 	return (
 		<div className="w-screen h-fit relative p-48 small:p-2 pt-2 4 flex flex-col items-center select-none font-mada text-charcoal font-[400] gap-20 justify-between bg-chalk  snap-center small:pb-20 small:pt-20">
 
-			<div className="text-4xl w-full self-start capitalize flex relative items-center justify-between 																																				">
+			<div className="text-4xl mt-10 w-full self-start capitalize flex relative items-center justify-between 																																				">
 
 				<h2 
 					className="w-[25%] small:w-full"
@@ -30,7 +30,7 @@ function Projects() {
 			</div>
 
 			<div className="w-full flex flex-col">
-				{projects?.slice(0,10)?.map(
+				{projects?.slice(0,1)?.map(
 					(project,index)=>(
 						<ProjectTile
 							key={index}

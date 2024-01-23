@@ -10,7 +10,7 @@ import projects from "../content/data/project.json"
 import mentorship from "../content/data/mentorship.json"
 import awards from "../content/data/awards.json"
 
-function Dashboard({status,setStatus}) {
+function Dashboard() {
 
 	const [bg, setBg] = useState({
 		image:"url(./others/bannerLight.svg)",
@@ -19,12 +19,11 @@ function Dashboard({status,setStatus}) {
 
 
 	return (
-		status=="VISIBLE"&&
 		<motion.div 
-			className="w-full h-screen font-mada font-[400] z-50 sticky top-0 over flex flex-col justify-center items-center"
+			className="w-full h-screen font-mada font-[400] z-40 sticky top-0 over flex flex-col justify-center items-center"
 			animate={{
 				backgroundColor:bg=="#1F1F1F"?"#F1EFF4":"#1F1F1F",
-				opacity:status=="VISIBLE"?1:0,
+				opacity:1,
 			}}
 			transition={{
 				duration:1,
@@ -79,15 +78,15 @@ function Dashboard({status,setStatus}) {
 
 			
 
-			<motion.button 
+			<motion.a 
 				className="bg-ivory fixed bottom-10 p-4 z-20 rounded-full hover:opacity-100 opacity-40 transition-all ease-in-out duration-200 small:opacity-100 "
 				whileHover={{opacity:1}}
-				onClick={()=>setStatus(false)} 
+				href={"/"}
 			>
 				<img 
 					src="./icons/cross.svg"
 				/>
-			</motion.button>
+			</motion.a>
 
 
 		</motion.div>

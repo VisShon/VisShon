@@ -62,18 +62,21 @@ function ProjectTile({index,title,descriptions,image,links,project}) {
 				</motion.div>:null}
 			</div>
 
-			{/* <div className="fixed left-0 top-0 w-screen h-screen bg-chalk p-5 z-50 flex">
-				<div className=" border-l border-y rounded-l-md h-full w-[30%] p-10 flex flex-col items-start justify-between">
-					<section>
-						<h2 className="text-grey text-[2vw] w-[50%] leading-tight small:text-[3vh]">{project.title}</h2>
+			{/* <div className="fixed left-0 top-0 w-screen h-screen bg-chalk p-5 z-50 flex small:flex-col">
 
-						<div className="w-[50%] text-lg small:text-[0.65rem] small:tracking-tighter capitalize leading-tight font-light mt-5">
+				<div className=" border-l border-y rounded-l-md small:rounded-l-none small:rounded-t-md small:border-b-0 small:border-r h-full small:h-[30%] w-[30%] small:w-full p-10 small:p-5 flex flex-col items-start justify-between">
+
+
+					<section>
+						<h2 className="text-grey text-[2vw] w-[50%] small:w-full leading-tight small:text-[3vh]">{project.title}</h2>
+
+						<div className="w-[50%] small:w-full text-lg small:text-[1rem] small:tracking-tighter capitalize leading-tight font-light mt-5">
 							{project.date&&<p>{project.date}</p>}
 							{project.tags&&<p >{project.tags}</p>}
 						</div>
 					</section>
 
-					<div className="flex gap-2 w-[15vw] small:mx-2 small:flex-col">
+					<div className="flex gap-2 w-[15vw] small:w-[30%]">
 						{links.map((link,index)=>(
 							<a 
 								key={index}
@@ -87,9 +90,10 @@ function ProjectTile({index,title,descriptions,image,links,project}) {
 							</a>
 						))}
 					</div>
+
 				</div>
 
-				<div className="w-[70%] h-full border rounded-r-md overflow-y-scroll z-0">
+				<div className="w-[70%] small:w-full h-full border rounded-r-md small:rounded-tr-none small:rounded-b overflow-y-scroll z-0">
 					<motion.button 
 						className="fixed top-10 right-5  z-20  "
 						whileHover={{opacity:1}}
@@ -101,7 +105,7 @@ function ProjectTile({index,title,descriptions,image,links,project}) {
 						/>
 					</motion.button>
 
-					<section className="p-10 px-20 w-[90%] flex flex-col items-start  text-2xl overflow-hidden">
+					<section className="p-10 px-20 w-[90%] small:w-full flex flex-col items-start  text-2xl small:text-lg overflow-hidden small:p-5">
 						{
 							<>
 								<a 
@@ -115,22 +119,22 @@ function ProjectTile({index,title,descriptions,image,links,project}) {
 								</a>
 								<p className="my-5">{project.descriptions[0]}</p>
 
-								<div className="flex w-full gap-10">
+								<div className="flex w-full gap-10 small:flex-col">
 									<a 
-										className="w-[50%]"
+										className="w-[50%] small:w-full"
 										target="_blank"
 										href={project.images[1]}>
 										<img
-											className="w-full object-contain h-[40vh]"
+											className="w-full object-contain h-[40vh] small:h-full"
 											src={project.images[1]}
 										/>
 									</a>
 									<a 
-										className="w-[50%]"
+										className="w-[50%] small:w-full"
 										target="_blank"
 										href={project.images[2]}>
 										<img
-											className="w-full object-contain h-[40vh]"
+											className="w-full object-contain h-[40vh] small:h-full"
 											src={project.images[2]}
 										/>
 									</a>
@@ -145,7 +149,7 @@ function ProjectTile({index,title,descriptions,image,links,project}) {
 											target="_blank"
 											href={project.images[3]}>
 											<img
-												className="w-full object-contain h-[50vh] object-left"
+												className="w-full object-contain h-[50vh] object-left small:h-full"
 												src={project.images[3]}
 											/>
 										</a>
@@ -161,7 +165,7 @@ function ProjectTile({index,title,descriptions,image,links,project}) {
 												target="_blank"
 												href={project.images[4]}>
 												<img
-													className="w-full object-contain h-[40vh]"
+													className="w-full object-contain h-[40vh] small:h-full"
 													src={project.images[4]}
 												/>
 											</a>
@@ -170,7 +174,7 @@ function ProjectTile({index,title,descriptions,image,links,project}) {
 												target="_blank"
 												href={project.images[5]}>
 												<img
-													className="w-full object-contain h-[40vh]"
+													className="w-full object-contain h-[40vh] small:h-full"
 													src={project.images[5]}
 												/>
 											</a>
@@ -179,7 +183,7 @@ function ProjectTile({index,title,descriptions,image,links,project}) {
 									</>
 								}
 
-								<div className="grid grid-cols-2 gap-10 mt-10">
+								<div className="grid grid-cols-2 gap-10 mt-10 small:grid-cols-1">
 									{
 										project.images.slice(descpLength+1).map((image,id)=>
 											<a
@@ -187,7 +191,7 @@ function ProjectTile({index,title,descriptions,image,links,project}) {
 												href={image}				
 											>
 												<img
-													className="w-full object-fill h-fit"
+													className="w-full object-fill h-fit small:h-full"
 													src={image}
 												/>
 											</a>

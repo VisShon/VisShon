@@ -51,7 +51,7 @@ function Reviews() {
 	
 
 	return (
-		<div className="relative w-screen h-fit px-48 small:px-0 flex flex-col items-center select-none font-mada text-charcoal font-[400] gap-20 small:gap-10 justify-between snap-center bg-chalk">
+		<div className="relative w-screen h-fit px-48 small:px-0 flex flex-col items-center select-none font-mada text-charcoal font-[400] gap-20 small:gap-10 justify-between snap-center bg-chalk mb-20">
 
 			<Seperator
 				top

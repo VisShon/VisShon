@@ -5,7 +5,10 @@ import Projects from "../layouts/Projects"
 import Ethics from "../layouts/Ethics"
 import SkillsTools from "../layouts/SkillsTools"
 import Reviews from "../layouts/Reviews"
+import Dashboard from "../layouts/Dashboard"
+
 import Loading from "../components/Loader/index"
+
 
 import { useRef, useState, useEffect } from "react"
 import {animate } from "framer-motion"
@@ -22,6 +25,7 @@ function Home() {
 
 	const [progress, setProgress] = useState(0)
 	const [intervalTime, setIntervalTime] = useState(100)
+	const [urlPath, setUrlPath] = useState(window.location.pathname.slice(1).toLowerCase())
 
 	const quote = useRef(options[Math.floor(Math.random() * 4)]) 
 
@@ -44,25 +48,35 @@ function Home() {
 	}, [progress,intervalTime])
 
 
+	useEffect(() =>
+		setUrlPath(window.location.pathname.slice(1).toLowerCase()), 
+	[window.location.pathname])
+
+
 	return (
 		<>
-			{/* {
+			{
 				progress!==100&&
 				<Loading
 					progress={progress}
 					quote={quote}
 				/>
-			} */}
+			}
 
-			<main className="flex bg-ivory flex-col items-center relative  w-screen h-fit overflow-x-clip overscroll-contain snap-y snap-scroll-points z-20 mb-[100vh]">
-				<Hero/>
-				<Introduction/>
-				<Experiences/>
-				<Ethics/>
-				<Projects/>
-				<SkillsTools/>
-				<Reviews/>
-			</main>
+			{
+				urlPath=="dashboard"?
+				<Dashboard/>:
+				<main className="flex bg-ivory flex-col items-center relative  w-screen h-fit overflow-x-clip overscroll-contain snap-y snap-scroll-points z-20 mb-[100vh]">
+					<Hero/>
+					<Introduction/>
+					<Experiences/>
+					<Ethics/>
+					<Projects/>
+					<SkillsTools/>
+					<Reviews/>
+				</main>
+			}
+
 
 			<div className="loader"></div>
 		</>
