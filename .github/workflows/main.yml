@@ -9,15 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     name: r2-upload
     steps:
-      - name: Use Node.js ${{ matrix.node_version }}
-        uses: actions/setup-node@v1
-        with:
-          node-version: 21.5
-      - name: npm install and build
-        working-directory: website
-        run: |
-          npm install
-          npm run build
       - uses: ryand56/r2-upload-action@latest
         with:
           r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
