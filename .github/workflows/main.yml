@@ -11,9 +11,9 @@ jobs:
     steps:
       - name: npm install and build
         run: |
-          cd website
           npm install
           npm run build
+        working-directory: website
       - uses: ryand56/r2-upload-action@latest
         with:
           r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
