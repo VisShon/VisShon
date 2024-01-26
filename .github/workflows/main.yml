@@ -11,6 +11,7 @@ jobs:
     steps:
       - name: npm install and build
         run: |
+          cd website
           npm install
           npm run build
       - uses: ryand56/r2-upload-action@latest
