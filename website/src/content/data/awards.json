@@ -8,17 +8,17 @@
 		],
 		"links": [
 			{
-				"name": "Eth India Hackathon 22",
+				"name": "link",
 				"url": "https://devfolio.co/projects/alkynefi-f616"
 			}
 		],
 		"images":[
-			"./content/images/awards/ethIndia/1.webp",
-			"./content/images/awards/ethIndia/2.webp",
-			"./content/images/awards/ethIndia/3.webp",
-			"./content/images/awards/ethIndia/4.webp",
-			"./content/images/awards/ethIndia/5.webp",
-			"./content/images/awards/ethIndia/6.webp"
+			"./images/awards/ethIndia/1.webp",
+			"./images/awards/ethIndia/2.webp",
+			"./images/awards/ethIndia/3.webp",
+			"./images/awards/ethIndia/4.webp",
+			"./images/awards/ethIndia/5.webp",
+			"./images/awards/ethIndia/6.webp"
 		]
 	},
 	{
@@ -30,17 +30,17 @@
 		],
 		"links": [
 			{
-				"name": "Polygon Buidlit Hackathon 22",
+				"name": "link",
 				"url": "https://devpost.com/software/reverelabs-dzpu4k"
 			}
 		],
 		"images":[
-			"./content/images/awards/polygonBuidlit/1.webp",
-			"./content/images/awards/polygonBuidlit/2.webp",
-			"./content/images/awards/polygonBuidlit/3.webp",
-			"./content/images/awards/polygonBuidlit/4.webp",
-			"./content/images/awards/polygonBuidlit/5.webp",
-			"./content/images/awards/polygonBuidlit/6.webp"
+			"./images/awards/polygonBuidlit/1.webp",
+			"./images/awards/polygonBuidlit/2.webp",
+			"./images/awards/polygonBuidlit/3.webp",
+			"./images/awards/polygonBuidlit/4.webp",
+			"./images/awards/polygonBuidlit/5.webp",
+			"./images/awards/polygonBuidlit/6.webp"
 		]
 	}
 ]

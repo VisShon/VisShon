@@ -48,13 +48,15 @@ function Hero() {
 					<a
 						className="relative hover:text-[#CCCFD4] transition-all"
 						target="_blank"
+											rel="noreferrer"
 						onMouseEnter={()=>setLinkSelected(1)}
 						onMouseLeave={()=>setLinkSelected(0)}
 						href="https://www.facebook.com/hcdiiitd/photos/3283459738578121/?paipv=0&eav=AfbJyIIwVX-zQRLBd9lIKcHDOF-EMF_S6VPrUes4f2yjkS6F26GRJPozk3PLblQ27Hw&_rdr">
 
-							{linkSelected==1&&
+							{linkSelected===1&&
 							<img
 								className="absolute top-0 transition-all ease-in-out" 
+								alt="Link"
 								src="./icons/arrow.svg"
 							/>}
 							<p>Bounty Winner,</p>
@@ -65,13 +67,15 @@ function Hero() {
 					<a
 						className="relative hover:text-[#CCCFD4] transition-all"
 						target="_blank"
+											rel="noreferrer"
 						onMouseEnter={()=>setLinkSelected(2)}
 						onMouseLeave={()=>setLinkSelected(0)}
 						href="https://ethglobal.com/showcase/alkynefi-nampv">
 
-							{linkSelected==2&&
+							{linkSelected===2&&
 							<img
 								className="absolute top-0 transition-all ease-in-out w-[40%] " 
+								alt="Link"
 								src="./icons/arrow.svg"
 							/>}
 							<p>Bounty Winner,</p>

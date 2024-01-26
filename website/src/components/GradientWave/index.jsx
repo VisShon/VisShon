@@ -5,7 +5,7 @@ import { useWindowSize } from '../../utils/useWindowSize';
 function Index() {
 
 	const [scope, animate] = useAnimate()
-	const [width, height] = useWindowSize()
+	const [width] = useWindowSize()
 	const [device, setDevice] = useState("")
 
 	useEffect(()=>{

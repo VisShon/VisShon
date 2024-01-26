@@ -9,7 +9,6 @@ import Dashboard from "../layouts/Dashboard"
 
 import Loading from "../components/Loader/index"
 
-
 import { useRef, useState, useEffect } from "react"
 import {animate } from "framer-motion"
 
@@ -39,7 +38,7 @@ function Home() {
 			}
 			else {
 				setProgress((prevProgress) => prevProgress + 1)
-				if (progress % 20 === 0 && progress !== 0)
+				if (progress % 10 === 0 && progress !== 0)
 				   setIntervalTime((prevTime) => prevTime / 2)
 			}
 		}, intervalTime)
@@ -50,7 +49,7 @@ function Home() {
 
 	useEffect(() =>
 		setUrlPath(window.location.pathname.slice(1).toLowerCase()), 
-	[window.location.pathname])
+	[])
 
 
 	return (
@@ -65,7 +64,7 @@ function Home() {
 			}
 
 			{
-				urlPath=="dashboard"?
+				urlPath==="dashboard"?
 				<Dashboard/>:
 				<main className="flex bg-ivory flex-col items-center relative  w-screen h-fit overflow-x-clip overscroll-contain snap-y snap-scroll-points z-20 mb-[100vh]">
 					<Hero/>

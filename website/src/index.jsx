@@ -21,7 +21,9 @@ root.render(
 			root={root}>
 			<Navbar/>
 			<Home/>
-			<Footer/>
 		</ReactLenis>
+
+		 
+		<Footer/>
 	</>
 )

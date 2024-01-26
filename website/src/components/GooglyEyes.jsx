@@ -10,6 +10,7 @@ function GooglyEyes({xposition, yposition}) {
 
 			<img
 				className="object-fill rounded-full absolute w-[90%] bottom-0 z-0 "
+				alt="Vishnu Selfie"
 				src="./others/ethicPhoto.png"
 			/>
 

@@ -23,7 +23,7 @@ function ExperienceCard({index,logo,device,setCurrent,setAnimate}) {
 				setCurrent(index)
 			},300)
 		}
-	},[inView])
+	},[inView,index,setAnimate,setCurrent])
 
 	
 	
@@ -35,11 +35,13 @@ function ExperienceCard({index,logo,device,setCurrent,setAnimate}) {
 			>
 				<img 
 					className="absolute h-[60%] small:h-[40%]"
+					alt={logo}
 					src={logo}
 				/>
 
 				<img 
 					ref={ref}
+					alt="Experience"
 					className="w-full rounded-md h-full object-cover"
 					src={`./others/${index+1}BG.png`}
 				/>

@@ -8,7 +8,7 @@ import ScrollBanner from "../components/ScrollBanner"
 
 function Reviews() {
 
-	const [width, height] = useWindowSize()
+	const [width] = useWindowSize()
 	const [device, setDevice] = useState("")
 
 	useEffect(()=>{
@@ -63,6 +63,7 @@ function Reviews() {
 				</h2>
 				<img
 					className="absolute -bottom-5  small:right-10 small:h-[50%]"
+					alt="Reviews"
 					src="./icons/comma.svg"
 				/>
 			</div>

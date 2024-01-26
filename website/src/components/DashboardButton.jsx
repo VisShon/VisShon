@@ -35,6 +35,7 @@ function DashboardButton({index,descp,title,data,setBg}) {
 			>
 
 				<img 
+					alt={title}
 					src="./icons/arrowWhite.svg"
 				/>
 
@@ -75,9 +76,10 @@ function DashboardButton({index,descp,title,data,setBg}) {
 									})
 									return setPopup(false)
 								}} 
-								className="absolute top-10 right-10 small:right-0 small:top-4 z-10">
+								className="absolute top-10 right-10 small:right-0 small:top-4 z-40">
 								<img 
 									className="small:w-[50%]"
+									alt="Back to Dashboard"
 									src="./icons/cross.svg"
 								/>
 							</button>
@@ -89,6 +91,7 @@ function DashboardButton({index,descp,title,data,setBg}) {
 											key={id}
 											title={item?.title} 
 											descriptions={item?.descriptions} 
+											item={item}
 											bg={`./others/${variantsBg[index]}.png`}
 										/>
 									))

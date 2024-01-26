@@ -8,27 +8,27 @@
 		],
 		"links": [
 			{
-				"name": "GDSC IIITD",
+				"name": "link",
 				"url": "https://gdsc.iiitd.edu.in/"
 			}
 		],
 		"images":[
-			"./content/images/community/gdscIIITD/1.webp",
-			"./content/images/community/gdscIIITD/2.webp",
-			"./content/images/community/gdscIIITD/3.webp",
-			"./content/images/community/gdscIIITD/4.webp",
-			"./content/images/community/gdscIIITD/5.webp",
-			"./content/images/community/gdscIIITD/6.webp",
-			"./content/images/community/gdscIIITD/7.webp",
-			"./content/images/community/gdscIIITD/8.webp",
-			"./content/images/community/gdscIIITD/9.webp",
-			"./content/images/community/gdscIIITD/10.webp",
-			"./content/images/community/gdscIIITD/11.webp",
-			"./content/images/community/gdscIIITD/12.webp",
-			"./content/images/community/gdscIIITD/13.webp",
-			"./content/images/community/gdscIIITD/14.webp",
-			"./content/images/community/gdscIIITD/15.webp",
-			"./content/images/community/gdscIIITD/16.webp"
+			"./images/community/gdscIIITD/1.webp",
+			"./images/community/gdscIIITD/2.webp",
+			"./images/community/gdscIIITD/3.webp",
+			"./images/community/gdscIIITD/4.webp",
+			"./images/community/gdscIIITD/5.webp",
+			"./images/community/gdscIIITD/6.webp",
+			"./images/community/gdscIIITD/7.webp",
+			"./images/community/gdscIIITD/8.webp",
+			"./images/community/gdscIIITD/9.webp",
+			"./images/community/gdscIIITD/10.webp",
+			"./images/community/gdscIIITD/11.webp",
+			"./images/community/gdscIIITD/12.webp",
+			"./images/community/gdscIIITD/13.webp",
+			"./images/community/gdscIIITD/14.webp",
+			"./images/community/gdscIIITD/15.webp",
+			"./images/community/gdscIIITD/16.webp"
 		]
 	},
 	{
@@ -40,26 +40,26 @@
 		],
 		"links": [
 			{
-				"name": "Web Dev Bootcamp '22",
+				"name": "link",
 				"url": "https://gdsc-iiit-delhi-bootcamp.devfolio.co/overview"
 			}
 		],
 		"images":[
-			"./content/images/community/devBootcamp22/1.webp",
-			"./content/images/community/devBootcamp22/2.webp",
-			"./content/images/community/devBootcamp22/3.webp",
-			"./content/images/community/devBootcamp22/4.webp",
-			"./content/images/community/devBootcamp22/5.webp",
-			"./content/images/community/devBootcamp22/6.webp",
-			"./content/images/community/devBootcamp22/7.webp",
-			"./content/images/community/devBootcamp22/8.webp",
-			"./content/images/community/devBootcamp22/9.webp",
-			"./content/images/community/devBootcamp22/10.webp",
-			"./content/images/community/devBootcamp22/11.webp",
-			"./content/images/community/devBootcamp22/12.webp",
-			"./content/images/community/devBootcamp22/13.webp",
-			"./content/images/community/devBootcamp22/14.webp",
-			"./content/images/community/devBootcamp22/15.webp"
+			"./images/community/devBootcamp22/1.webp",
+			"./images/community/devBootcamp22/2.webp",
+			"./images/community/devBootcamp22/3.webp",
+			"./images/community/devBootcamp22/4.webp",
+			"./images/community/devBootcamp22/5.webp",
+			"./images/community/devBootcamp22/6.webp",
+			"./images/community/devBootcamp22/7.webp",
+			"./images/community/devBootcamp22/8.webp",
+			"./images/community/devBootcamp22/9.webp",
+			"./images/community/devBootcamp22/10.webp",
+			"./images/community/devBootcamp22/11.webp",
+			"./images/community/devBootcamp22/12.webp",
+			"./images/community/devBootcamp22/13.webp",
+			"./images/community/devBootcamp22/14.webp",
+			"./images/community/devBootcamp22/15.webp"
 		]
 	},
 	{
@@ -71,26 +71,26 @@
 		],
 		"links": [
 			{
-				"name": "Hacktoberfest Workshop '23",
+				"name": "link",
 				"url": "https://events.mlh.io/events/10527-gdsc-iiit-delhi-hacktoberfest"
 			}
 		],
 		"images":[
-			"./content/images/community/hacktoberfest23/1.webp",
-			"./content/images/community/hacktoberfest23/2.webp",
-			"./content/images/community/hacktoberfest23/3.webp",
-			"./content/images/community/hacktoberfest23/4.webp",
-			"./content/images/community/hacktoberfest23/5.webp",
-			"./content/images/community/hacktoberfest23/6.webp",
-			"./content/images/community/hacktoberfest23/7.webp",
-			"./content/images/community/hacktoberfest23/8.webp",
-			"./content/images/community/hacktoberfest23/9.webp",
-			"./content/images/community/hacktoberfest23/10.webp",
-			"./content/images/community/hacktoberfest23/11.webp",
-			"./content/images/community/hacktoberfest23/12.webp",
-			"./content/images/community/hacktoberfest23/13.webp",
-			"./content/images/community/hacktoberfest23/14.webp",
-			"./content/images/community/hacktoberfest23/15.webp"
+			"./images/community/hacktoberfest23/1.webp",
+			"./images/community/hacktoberfest23/2.webp",
+			"./images/community/hacktoberfest23/3.webp",
+			"./images/community/hacktoberfest23/4.webp",
+			"./images/community/hacktoberfest23/5.webp",
+			"./images/community/hacktoberfest23/6.webp",
+			"./images/community/hacktoberfest23/7.webp",
+			"./images/community/hacktoberfest23/8.webp",
+			"./images/community/hacktoberfest23/9.webp",
+			"./images/community/hacktoberfest23/10.webp",
+			"./images/community/hacktoberfest23/11.webp",
+			"./images/community/hacktoberfest23/12.webp",
+			"./images/community/hacktoberfest23/13.webp",
+			"./images/community/hacktoberfest23/14.webp",
+			"./images/community/hacktoberfest23/15.webp"
 		]
 		
 	},
@@ -104,26 +104,26 @@
 		],
 		"links": [
 			{
-				"name": "Billion Reasons to Build Delhi '23",
+				"name": "link",
 				"url": "https://gdsc.community.dev/events/details/developer-student-clubs-indraprastha-institute-of-information-technology-delhi-presents-billion-reasons-to-build/"
 			}
 		],
 		"images":[
-			"./content/images/community/billionReasonToBuild/1.webp",
-			"./content/images/community/billionReasonToBuild/2.webp",
-			"./content/images/community/billionReasonToBuild/3.webp",
-			"./content/images/community/billionReasonToBuild/4.webp",
-			"./content/images/community/billionReasonToBuild/5.webp",
-			"./content/images/community/billionReasonToBuild/6.webp",
-			"./content/images/community/billionReasonToBuild/7.webp",
-			"./content/images/community/billionReasonToBuild/8.webp",
-			"./content/images/community/billionReasonToBuild/9.webp",
-			"./content/images/community/billionReasonToBuild/10.webp",
-			"./content/images/community/billionReasonToBuild/11.webp",
-			"./content/images/community/billionReasonToBuild/12.webp",
-			"./content/images/community/billionReasonToBuild/13.webp",
-			"./content/images/community/billionReasonToBuild/14.webp",
-			"./content/images/community/billionReasonToBuild/15.webp"
+			"./images/community/billionReasonToBuild/1.webp",
+			"./images/community/billionReasonToBuild/2.webp",
+			"./images/community/billionReasonToBuild/3.webp",
+			"./images/community/billionReasonToBuild/4.webp",
+			"./images/community/billionReasonToBuild/5.webp",
+			"./images/community/billionReasonToBuild/6.webp",
+			"./images/community/billionReasonToBuild/7.webp",
+			"./images/community/billionReasonToBuild/8.webp",
+			"./images/community/billionReasonToBuild/9.webp",
+			"./images/community/billionReasonToBuild/10.webp",
+			"./images/community/billionReasonToBuild/11.webp",
+			"./images/community/billionReasonToBuild/12.webp",
+			"./images/community/billionReasonToBuild/13.webp",
+			"./images/community/billionReasonToBuild/14.webp",
+			"./images/community/billionReasonToBuild/15.webp"
 		]
 	},
 	{
@@ -135,26 +135,26 @@
 		],
 		"links": [
 			{
-				"name": "Winterlude Tech Fest '23",
+				"name": "link",
 				"url": "https://www.commudle.com/communities/dsc-iiitd/events/winterlude"
 			}
 		],
 		"images":[
-			"./content/images/community/winterlude23/1.webp",
-			"./content/images/community/winterlude23/2.webp",
-			"./content/images/community/winterlude23/3.webp",
-			"./content/images/community/winterlude23/4.webp",
-			"./content/images/community/winterlude23/5.webp",
-			"./content/images/community/winterlude23/6.webp",
-			"./content/images/community/winterlude23/7.webp",
-			"./content/images/community/winterlude23/8.webp",
-			"./content/images/community/winterlude23/9.webp",
-			"./content/images/community/winterlude23/10.webp",
-			"./content/images/community/winterlude23/11.webp",
-			"./content/images/community/winterlude23/12.webp",
-			"./content/images/community/winterlude23/13.webp",
-			"./content/images/community/winterlude23/14.webp",
-			"./content/images/community/winterlude23/15.webp"
+			"./images/community/winterlude23/1.webp",
+			"./images/community/winterlude23/2.webp",
+			"./images/community/winterlude23/3.webp",
+			"./images/community/winterlude23/4.webp",
+			"./images/community/winterlude23/5.webp",
+			"./images/community/winterlude23/6.webp",
+			"./images/community/winterlude23/7.webp",
+			"./images/community/winterlude23/8.webp",
+			"./images/community/winterlude23/9.webp",
+			"./images/community/winterlude23/10.webp",
+			"./images/community/winterlude23/11.webp",
+			"./images/community/winterlude23/12.webp",
+			"./images/community/winterlude23/13.webp",
+			"./images/community/winterlude23/14.webp",
+			"./images/community/winterlude23/15.webp"
 		]
 	},
 	{
@@ -167,31 +167,31 @@
 		],
 		"links": [
 			{
-				"name": "1 Pixel Design Conference '23",
+				"name": "link",
 				"url": "https://1pxdesignconf.iiitd.edu.in/archive/2023/"
 			},
 			{
-				"name": "Unstop - 1 Pixel Design Conf",
+				"name": "link",
 				"url": "https://unstop.com/college-fests/1-pixel-design-conf-indraprastha-institute-of-information-technology-iiit-delhi-84450"
 			}
 		],
 		"images":[
-			"./content/images/community/1pixel23/1.webp",
-			"./content/images/community/1pixel23/2.webp",
-			"./content/images/community/1pixel23/3.webp",
-			"./content/images/community/1pixel23/4.webp",
-			"./content/images/community/1pixel23/5.webp",
-			"./content/images/community/1pixel23/6.webp",
-			"./content/images/community/1pixel23/7.webp",
-			"./content/images/community/1pixel23/8.webp",
-			"./content/images/community/1pixel23/9.webp",
-			"./content/images/community/1pixel23/10.webp",
-			"./content/images/community/1pixel23/11.webp",
-			"./content/images/community/1pixel23/12.webp",
-			"./content/images/community/1pixel23/13.webp",
-			"./content/images/community/1pixel23/14.webp",
-			"./content/images/community/1pixel23/15.webp",
-			"./content/images/community/1pixel23/16.webp"
+			"./images/community/1pixel23/1.webp",
+			"./images/community/1pixel23/2.webp",
+			"./images/community/1pixel23/3.webp",
+			"./images/community/1pixel23/4.webp",
+			"./images/community/1pixel23/5.webp",
+			"./images/community/1pixel23/6.webp",
+			"./images/community/1pixel23/7.webp",
+			"./images/community/1pixel23/8.webp",
+			"./images/community/1pixel23/9.webp",
+			"./images/community/1pixel23/10.webp",
+			"./images/community/1pixel23/11.webp",
+			"./images/community/1pixel23/12.webp",
+			"./images/community/1pixel23/13.webp",
+			"./images/community/1pixel23/14.webp",
+			"./images/community/1pixel23/15.webp",
+			"./images/community/1pixel23/16.webp"
 		]
 	},
 	{
@@ -203,26 +203,26 @@
 		],
 		"links": [
 			{
-				"name": "Odyssey '23",
+				"name": "link",
 				"url": "https://www.instagram.com/iiitdodyssey/"
 			}
 		],
 		"images":[
-			"./content/images/community/odyssey23/1.webp",
-			"./content/images/community/odyssey23/2.webp",
-			"./content/images/community/odyssey23/3.webp",
-			"./content/images/community/odyssey23/4.webp",
-			"./content/images/community/odyssey23/5.webp",
-			"./content/images/community/odyssey23/6.webp",
-			"./content/images/community/odyssey23/7.webp",
-			"./content/images/community/odyssey23/8.webp",
-			"./content/images/community/odyssey23/9.webp",
-			"./content/images/community/odyssey23/10.webp",
-			"./content/images/community/odyssey23/11.webp",
-			"./content/images/community/odyssey23/12.webp",
-			"./content/images/community/odyssey23/13.webp",
-			"./content/images/community/odyssey23/14.webp",
-			"./content/images/community/odyssey23/15.webp"
+			"./images/community/odyssey23/1.webp",
+			"./images/community/odyssey23/2.webp",
+			"./images/community/odyssey23/3.webp",
+			"./images/community/odyssey23/4.webp",
+			"./images/community/odyssey23/5.webp",
+			"./images/community/odyssey23/6.webp",
+			"./images/community/odyssey23/7.webp",
+			"./images/community/odyssey23/8.webp",
+			"./images/community/odyssey23/9.webp",
+			"./images/community/odyssey23/10.webp",
+			"./images/community/odyssey23/11.webp",
+			"./images/community/odyssey23/12.webp",
+			"./images/community/odyssey23/13.webp",
+			"./images/community/odyssey23/14.webp",
+			"./images/community/odyssey23/15.webp"
 		]
 
 	}

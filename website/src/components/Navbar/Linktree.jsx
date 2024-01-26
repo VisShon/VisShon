@@ -29,6 +29,7 @@ function Linktree() {
 					<a
 						className="hover:text-charcoal transition-all" 
 						target="_blank"
+											rel="noreferrer"
 						href={"https://github.com/VisShon"}>
 						Github
 					</a>
@@ -36,6 +37,7 @@ function Linktree() {
 					<a
 						className="hover:text-charcoal transition-all" 
 						target="_blank"
+											rel="noreferrer"
 						href={"https://www.linkedin.com/in/vishnu-shon-079007202/"}>
 						LinkedIn
 					</a>
@@ -43,6 +45,7 @@ function Linktree() {
 					<a
 						className="hover:text-charcoal transition-all" 
 						target="_blank"
+											rel="noreferrer"
 						href={"https://www.figma.com/@VisShon"}>
 						Figma
 					</a>
@@ -50,6 +53,7 @@ function Linktree() {
 					<a
 						className="hover:text-charcoal transition-all" 
 						target="_blank"
+											rel="noreferrer"
 						href={"https://www.instagram.com/visshon/"}>
 						Instagram
 					</a>
@@ -57,6 +61,7 @@ function Linktree() {
 					<a
 						className="hover:text-charcoal transition-all" 
 						target="_blank"
+											rel="noreferrer"
 						href={"https://twitter.com/ShonVishnu"}>
 						Twitter
 					</a>
@@ -64,6 +69,7 @@ function Linktree() {
 					<a
 						className="hover:text-charcoal transition-all" 
 						target="_blank"
+											rel="noreferrer"
 						href={"https://t.me/VShon1"}>
 						Telegram
 					</a>
@@ -71,6 +77,7 @@ function Linktree() {
 					<a
 						className="hover:text-charcoal transition-all" 
 						target="_blank"
+											rel="noreferrer"
 						href={"https://discord.com/channels/0xvishnu"}>
 						Discord
 					</a>

@@ -28,13 +28,6 @@ function Avaibility() {
 		)
 	},[])
 
-	const transition = {
-		type: "spring",
-		stiffness: 50,
-		damping: 20,
-		mass: 2
-	  };
-
 	return (
 		<div 
 			className="flex flex-col gap-1 items-end text-grey font-[500] z-50 font-mada"

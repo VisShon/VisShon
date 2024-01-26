@@ -7,7 +7,7 @@ function Loading({progress,quote}) {
 
 	return (
 		<div 
-			className="fixed top-0 w-screen h-screen bg-ivory loader text-charcoal z-50 "			
+			className="fixed top-0 w-screen h-screen bg-ivory loader text-charcoal z-50 cursor-wait"			
 		>
 			<motion.div 
 				className="w-full h-full overflow-hidden bg-ivory flex flex-col justify-center items-center z-50"

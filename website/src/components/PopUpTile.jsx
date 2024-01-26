@@ -1,12 +1,13 @@
 import { motion } from "framer-motion"
 import { useState,useEffect } from "react"
 import { useWindowSize } from "../utils/useWindowSize"
+import ProjectPopUp from './ProjectPopUp';
 
-function PopUpTile({index,title,descriptions,image,links,bg}) {
+function PopUpTile({index,title,descriptions,item,bg}) {
 
 	const [isOpen,setIsOpen] = useState(false)
 	const [isHover,setIsHover] = useState(false)
-	const [width, height] = useWindowSize()
+	const [width] = useWindowSize()
 	const [device, setDevice] = useState("")
 
 	useEffect(()=>{
@@ -17,11 +18,6 @@ function PopUpTile({index,title,descriptions,image,links,bg}) {
 		if(width >1030)
 			setDevice("LARGE")
 	},[width])	
-
-	const variants ={
-		0:"border border-t-[1.5px] border-b-0",
-		1:"border border-t-[1.5px] border-b-[1.5px]"
-	}
 
 	const CircleVariants ={
 		"DEFAULT":{
@@ -47,49 +43,56 @@ function PopUpTile({index,title,descriptions,image,links,bg}) {
 
 
 	return (
-		<div 
-			className="relative flex border-b-[1.5px] justify-center border-charcoal  gap-10 w-full items-center cursor-pointer bg-contain h-[12vh]"
-			layout
-			onMouseEnter={() => setIsHover(true)}
-			onMouseLeave={() => setIsHover(false)}
-			style={index==0?{borderTop:"1.5px solid"}:{borderTop:"0px solid"}}
-		>
-			{device!=="SMALL"&&
-			<motion.img 
-				className="absolute w-full h-full left-0 object-cover mx-2 z-0"
-				animate={isHover?CircleVariants["HOVER"]:CircleVariants["DEFAULT"]}
-				transition={{
-					duration:0.5,
-					ease:"easeInOut",
-					type: "spring",
-				}}
-				src={bg}
-			/>}
-
-			<motion.div 
-				className="w-full h-full px-10 small:px-5 pl-[8%] small:pl-5  flex justify-start items-center z-10  gap-10"
-				animate={isHover?TextVariants["HOVER"]:TextVariants["Default"]}
+		<>
+			<div 
+				className="relative flex border-b-[1.5px] justify-center border-charcoal  gap-10 w-full items-center cursor-pointer bg-contain h-[12vh]"
+				onClick={()=>setIsOpen(true)}
+				onMouseEnter={() => setIsHover(true)}
+				onMouseLeave={() => setIsHover(false)}
+				style={index===0?{borderTop:"1.5px solid"}:{borderTop:"0px solid"}}
 			>
-				<h2 
-					className="text-[2vw]  leading-tight font-[300] text-left w-[25%] small:w-[50%] small:text-base">
-					{title}
-				</h2>
+				{device!=="SMALL"&&
+				<motion.img 
+					className="absolute w-full h-full left-0 object-cover mx-2 z-0"
+					alt={title}
+					animate={isHover?CircleVariants["HOVER"]:CircleVariants["DEFAULT"]}
+					transition={{
+						duration:0.5,
+						ease:"easeInOut",
+						type: "spring",
+					}}
+					src={bg}
+				/>}
 
-				<div 
-					className="w-[70%] small:text-[1.1vh] text-[0.75vw] ">
-					<p>{descriptions?.at(0).slice(0,1000)}</p>
-					{
-						device!=="SMALL"&&
-						(descriptions?.at(0).length<400?
-							<p>{descriptions?.at(1)}</p>:
-							<></>)
-					}
-				</div>
+				<motion.div 
+					className="w-full h-full px-10 small:px-5 pl-[8%] small:pl-5  flex justify-start items-center z-10  gap-10"
+					animate={isHover?TextVariants["HOVER"]:TextVariants["Default"]}
+				>
+					<h2 
+						className="text-[1.8vw]  leading-tight font-[300] text-left w-[25%] small:w-[50%] small:text-base">
+						{title}
+					</h2>
 
+					<div 
+						className="w-[70%] small:text-[1.1vh] text-[0.75vw] ">
+						<p>{descriptions?.at(0).slice(0,1000)}</p>
+						{
+							device!=="SMALL"&&
+							(descriptions?.at(0).length<400?
+								<p>{descriptions?.at(1)}</p>:
+								<></>)
+						}
+					</div>
 
-
-			</motion.div>
-		</div>
+				</motion.div>
+			</div>
+			
+			<ProjectPopUp
+				project={item}
+				setIsOpen={setIsOpen}
+				isOpen={isOpen}
+			/>
+		</>
 	)
 }
 

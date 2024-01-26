@@ -39,7 +39,7 @@ function Ethics() {
 		return () => {
 			window.removeEventListener("mousemove", updateMousePosition);
 		}
-	}, [])
+	}, [x,y])
 
 
 	return (

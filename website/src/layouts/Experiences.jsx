@@ -24,7 +24,7 @@ function Experiences() {
 		},
 	}
 
-	const [width, height] = useWindowSize()
+	const [width] = useWindowSize()
 	const [device, setDevice] = useState("")
 	const [rotation,setRotation] = useState(0)
 
@@ -65,43 +65,43 @@ function Experiences() {
 					)}
 				</div>
 
-				<div className="border-[1.5px] h-[80vh] small:h-[90vh] rounded-md  border-grey p-24 flex justify-end sticky top-20 small:top-10 small:p-4">
+				<div className="border-[1.5px] h-[80vh] small:h-[90vh] rounded-md  border-grey p-24 flex justify-end sticky top-20 small:top-10 small:p-4 ">
 
-					<div className="w-[40%] small:w-[55%] flex flex-col small:h-[35%] justify-center items-start small:justify-end ease-in-out transition-all ">
+					<motion.div 
+						className="w-[40%] small:w-[55%] flex flex-col small:h-[100%] justify-center items-start small:justify-start ease-in-out transition-all"
+						variants={AnimationVariants} 
+						animate={animation ? 'hide' : 'show'}
+					>
 
-						<motion.a  
-							variants={AnimationVariants} 
-							animate={animation ? 'hide' : 'show'}
+						<a  
 							className="font-[400] text-[3vw] leading-tight small:text-4xl mb-2"
 							alt={experience[index]?.title}
 							target="_blank"
+											rel="noreferrer"
 							href={experience[index]?.links[0].url}>
 							{experience[index]?.title}	
-						</motion.a>
+						</a>
 
-						<motion.p  
-							variants={AnimationVariants} 
-							animate={animation ? 'hide' : 'show'}
+						<p  
 							className="rounded-full border-[1.5px] border-grey py-1 px-2 small:px-1 small:py-0 w-fit mb-10 text-lg small:text-[0.65rem] small:tracking-tighter">
 							{experience[index]?.date}
-						</motion.p>
+						</p>
 
-						<motion.div  
-							variants={AnimationVariants} 
-							animate={animation ? 'hide' : 'show'}
-							className="flex flex-col gap-5 text-[1vw] small:text-base small:absolute small:bottom-[12vh] small:left-0 small:px-4 small:w-full">
+						<div   
+							className="flex flex-col gap-5 text-[1vw] small:text-[2vh] small:absolute small:bottom-[12vh] small:-right-4 small:px-4 small:w-[90vw]">
 							{experience[index]?.descriptions.slice(0,3).map((description,id)=>
 								<p key={id}>
 									{description}
 								</p>
 							)}
-						</motion.div>
+						</div>
 
-					</div>
+					</motion.div>
 
 					<motion.img
 						animate={{rotateZ:rotation}}
 						className="absolute bottom-10 right-10 small:right-10"
+						alt="Star"
 						src="./icons/darkStar.svg"
 					/>
 				</div>

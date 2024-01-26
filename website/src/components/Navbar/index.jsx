@@ -17,12 +17,14 @@ function Navbar() {
 					<a
 						className="hover:text-charcoal transition-colors" 
 						target="_blank"
+											rel="noreferrer"
 						href={"/resume.pdf"}>
 						Resume
 					</a>
 					<a
 						className="hover:text-charcoal transition-colors" 
 						target="_blank"
+											rel="noreferrer"
 						href={"https://www.figma.com/community/file/1292935637129990867"}>
 						Like This ?
 					</a>

@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3db671e8.css",
+    "main.js": "/static/js/main.2b261ea6.js",
+    "static/media/mentorshipBg.png": "/static/media/mentorshipBg.fa470efcf60a8915e9e5.png",
+    "static/media/awardsBg.png": "/static/media/awardsBg.6f22e634c5503e490b2c.png",
+    "static/media/communityBg.png": "/static/media/communityBg.eee58d29f82bae6ab930.png",
+    "static/media/workBg.png": "/static/media/workBg.f293392fc7f12eca5e47.png",
+    "static/media/projectBg.png": "/static/media/projectBg.849beb15dec2fe7418ab.png",
+    "static/media/noise.svg": "/static/media/noise.60e403c53a6fcafac308.svg",
+    "static/media/tunnelBg.png": "/static/media/tunnelBg.bc5394c6314a5ef5f002.png",
+    "static/media/LuimpItalic.ttf": "/static/media/LuimpItalic.df8ee2ac0351b5c90087.ttf",
+    "static/media/Luimp.ttf": "/static/media/Luimp.bf6e941c2db310f17221.ttf",
+    "index.html": "/index.html",
+    "main.3db671e8.css.map": "/static/css/main.3db671e8.css.map",
+    "main.2b261ea6.js.map": "/static/js/main.2b261ea6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3db671e8.css",
+    "static/js/main.2b261ea6.js"
+  ]
+}

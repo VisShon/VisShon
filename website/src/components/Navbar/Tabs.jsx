@@ -8,12 +8,16 @@ function Tabs() {
 				<div className="gradient gap-5 p-2 rounded-md flex justify-between items-center">
 					<img 
 						className="h-[10%]" 
+						alt="Home"
 						src="./logo.svg"
 					/>
 					<a
 						className="hover:opacity-100 opacity-95" 
 						href={"/dashboard"}>
-						<img src="./others/dashboard.svg"/>
+						<img 
+							alt="dashboard"
+							src="./others/dashboard.svg"
+						/>
 					</a>
 				</div>
 

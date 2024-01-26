@@ -1,41 +1,39 @@
 import {useRef, useEffect} from 'react'
-import Fluid from 'webgl-fluid'
+import WebGLFluid from 'webgl-fluid'
 
 function Footer() {
 
-	// const canvas = useRef(null)
-
-	// useEffect(function () {
-	// 	if(canvas.current){
-	// 		let c = canvas.current
-	// 		Fluid(c,{
-	// 			IMMEDIATE: false, 
-	// 			TRIGGER: 'hover',
-	// 			SIM_RESOLUTION: 8,
-	// 			DYE_RESOLUTION: 128,
-	// 			CAPTURE_RESOLUTION: 0,
-	// 			DENSITY_DISSIPATION: 2,
-	// 			VELOCITY_DISSIPATION: 0.2,
-	// 			PRESSURE: 0.005,
-	// 			PRESSURE_ITERATIONS: 1,
-	// 			COLORFUL: false,
-	// 			CURL: 2,
-	// 			SPLAT_RADIUS: 1,
-	// 			SPLAT_FORCE: 500,
-	// 			SPLAT_COUNT: 1,
-	// 			SHADING: false,
-	// 			COLORFUL: true,
-	// 			COLOR_UPDATE_SPEED: 10,
-	// 			PAUSED: false,
-	// 			TRANSPARENT: true,
-	// 			BLOOM: true,
-	// 			BLOOM_INTENSITY: 0.2,
-	// 			SUNRAYS: true,
-	// 			SUNRAYS_RESOLUTION: 2,
-	// 				SUNRAYS_WEIGHT: 0.5,
-	// 			})
-	// 	}
-	// }, [canvas.current])	  
+	const canvas = useRef(null)
+	
+	useEffect(function () {
+		if(canvas.current!==undefined){
+			WebGLFluid(canvas.current,{
+				IMMEDIATE: true,
+				SIM_RESOLUTION: 8,
+				DYE_RESOLUTION: 128,
+				CAPTURE_RESOLUTION: 0,
+				DENSITY_DISSIPATION: 2,
+				VELOCITY_DISSIPATION: 0.2,
+				PRESSURE: 0.005,
+				PRESSURE_ITERATIONS: 1,
+				COLORFUL: false,
+				CURL: 2,
+				SPLAT_RADIUS: 1,
+				SPLAT_FORCE: 500,
+				SPLAT_COUNT: 1,
+				SHADING: false,
+				COLORFUL: true,
+				COLOR_UPDATE_SPEED: 10,
+				PAUSED: false,
+				TRANSPARENT: true,
+				BLOOM: true,
+				BLOOM_INTENSITY: 0.2,
+				SUNRAYS: true,
+				SUNRAYS_RESOLUTION: 2,
+					SUNRAYS_WEIGHT: 0.2,
+			}) 
+		}
+	}, [canvas])	  
 
 	return (
 		<div className="w-screen h-[100vh] bg-ivory fixed top-0 z-0  p-10 flex flex-col justify-center items-center font-mada text-ivory ">
@@ -49,13 +47,11 @@ function Footer() {
 				Contact Me
 			</a>
 
-			<div className="absolute w-[96%] h-[96%] rounded-lg z-20 bluewash top-4 ">
-				<canvas 
-					className="bg-noise w-full opacity-80 h-full" 
-					// ref={canvas} 
-				>
-				</canvas>
-			</div>
+			<canvas 
+				className="bg-noise opacity-80 absolute w-[96%] h-[96%] rounded-lg z-20 bluewash top-4 " 
+				ref={canvas} 
+			>
+			</canvas>
 
 			<div className="w-[96%] h-[96%] p-10 absolute top-4  flex flex-col justify-end bg-charcoal bluewash rounded-lg">
 				<section className="absolute top-10 small:text-sm">
@@ -68,7 +64,7 @@ function Footer() {
 
 				<div className="flex justify-between  small:flex-col small:w-full">
 
-					<h2 className="text-7xl mb-10 small:text-6xl small:mb-32">HAVE AN IDEA ?</h2>
+					<h2 className="text-7xl mb-20 small:text-6xl small:mb-32">HAVE AN IDEA ?</h2>
 
 					<div className="w-fit font-[300] self-end">
 						<p>2023 © VisShon, New Delhi. All rights reserved</p>

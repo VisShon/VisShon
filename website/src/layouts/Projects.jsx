@@ -1,12 +1,7 @@
-import { useState } from "react";
-import { motion } from "framer-motion"
-
 import ProjectTile from "../components/ProjectTile"
 import projects from "../content/data/project.json"
 
 function Projects() {
-
-	const [selected,setSelected] = useState("LIST")
 
 	return (
 		<div className="w-screen h-fit relative p-48 small:p-2 pt-2 4 flex flex-col items-center select-none font-mada text-charcoal font-[400] gap-20 justify-between bg-chalk  snap-center small:pb-20 small:pt-20">
@@ -29,8 +24,8 @@ function Projects() {
 
 			</div>
 
-			<div className="w-full flex flex-col">
-				{projects?.slice(0,1)?.map(
+			<div className="w-full flex flex-col relative z-10">
+				{projects?.slice(0,5)?.map(
 					(project,index)=>(
 						<ProjectTile
 							key={index}

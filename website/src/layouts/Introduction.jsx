@@ -25,6 +25,7 @@ function Introduction() {
 							onClick={()=>setRotation(rotation=>rotation+30)}
 							animate={{rotateZ:rotation}}
 							className="w-[15%] small:w-[8vh]"
+							alt="Star"
 							src="./icons/star.svg"
 						/>
 						<section className="text-right ml-5">
@@ -44,6 +45,7 @@ function Introduction() {
 				<section className="relative w-full flex justify-start items-center gap-2 -mt-2 small:-mt-0">
 					<img
 						className="hover:scale-105 transition-all ease-in-out select-none w-[20%]" 
+						alt="Vishnu Shon"
 						src="./others/introPhoto.png"
 					/>
 					<div>
@@ -62,6 +64,7 @@ function Introduction() {
 					<a 
 						className="relative hover:text-[#CCCFD4] transition-all underline" 
 						target="_blank"
+											rel="noreferrer"
 						href="https://inc42.com/buzz/meet-the-31-web3-startups-that-are-part-of-first-cohort-of-polygonleap-2021/">
 						fundraising
 					</a>
