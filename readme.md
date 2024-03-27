@@ -1,6 +1,21 @@
 
-### 🙋🏻‍♂️ Hello there, I am Vishnu a GRAND stack developer.
-Enthusiastic, self-motivated, responsible, and experienced team player who can adapt to any challenging situation. With industry experience in Web Development, UI/UX design, and Market Research, and an eagerness to learn.
+### 🙋🏻‍♂️ Hi, I'm Vishnu Shon.
+I'd love to share a bit about myself:
+ - Founding developer at Respct, led the frontend with the team to round several wins at Tachyon 
+   Accelerator '21
+ - Developed winning projects at hackathons like Eth India '22 and Polygon BUIDL IT '22 .
+ - Bootstrapped StayBook (a booking engine business) to 200+ hotels and nationwide customers. 
+ - Even teamed up with the Indian Government (long story...)
+
+here's how I am an asset:
+ - I have a deep understanding of the web3 frontend stack
+ - I have 3+ years of experience developing products of all scales and architectures.
+ - I am meticulous about the process and love the tiny details
+ - I am good at developing APIs and SDKs anything under the JS stack
+ - I can understand and implement anything you throw at me.
+
+P.S. Check out my work on ![](www.vishnushon.com) (Any feedback is welcome!)
+
 
 ### My Languages 👨🏻‍💻
 ![](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
