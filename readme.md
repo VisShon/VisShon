@@ -14,7 +14,7 @@ here's how I am an asset:
  - I am good at developing APIs and SDKs anything under the JS stack
  - I can understand and implement anything you throw at me.
 
-P.S. Check out my work on ![](www.vishnushon.com) (Any feedback is welcome!)
+P.S. Check out my work on www.vishnushon.com (Any feedback is welcome!)
 
 
 ### My Languages 👨🏻‍💻
