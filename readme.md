@@ -56,9 +56,3 @@ P.S. Check out my work on www.vishnushon.com (Any feedback is welcome!)
 
 ![](./assets/profile-gitblock.svg)
 
-### Contact me 📪
-![wesbite](https://img.shields.io/badge/linktree-1de9b6?style=for-the-badge&logo=linktree&logoColor=white) www.vishnushon.com
-
-![mail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white) vshon447@gmail.com
-
-![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white) https://www.linkedin.com/in/vishnu-shon-079007202
