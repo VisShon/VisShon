@@ -1,20 +1,16 @@
 
 ### 🙋🏻‍♂️ Hi, I'm Vishnu Shon.
 I'd love to share a bit about myself:
- - Founding developer at Respct, led the frontend with the team to round several wins at Tachyon 
-   Accelerator '21
- - Developed winning projects at hackathons like Eth India '22 and Polygon BUIDL IT '22 .
- - Bootstrapped StayBook (a booking engine business) to 200+ hotels and nationwide customers. 
- - Even teamed up with the Indian Government (long story...)
+ - Founding developer at a startup called [Respct](https://www.crunchbase.com/organization/respct), led the frontend team to round seed funding at [PolygonLEAP](https://inc42.com/buzz/meet-the-31-web3-startups-that-are-part-of-first-cohort-of-polygonleap-2021/) and [Tachyon Accelerator'21](https://tachyon.xyz/alumni/) and scaled it to [5000+](https://twitter.com/TachyonAccel/status/1511033230346051590) users.
+ - Developed winning projects at global hackathons like [Ethereum India '22](https://ethglobal.com/showcase/alkynefi-nampv) and [Polygon BUIDL IT '22](https://devpost.com/software/reverelabs-dzpu4k).
+ - Developed and scaled StayBook (a booking engine business) to **200+** hotels and **20,000** active customers.
+ - SDE summer intern at **MathWorks**, audited Simulink 3D Editor. 
+ - Even teamed up with the **Indian Government** for a GIS software (long story...)
+ - 
+**I like user needs more than software vitamins.**
+P.S. Check out my work on www.vishnushon.com 
 
-here's how I am an asset:
- - I have a deep understanding of the web3 frontend stack
- - I have 3+ years of experience developing products of all scales and architectures.
- - I am meticulous about the process and love the tiny details
- - I am good at developing APIs and SDKs anything under the JS stack
- - I can understand and implement anything you throw at me.
-
-P.S. Check out my work on www.vishnushon.com (Any feedback is welcome!)
+[![roadmap.sh](https://roadmap.sh/card/wide/64b5a7510a49b0be0ed6ea0b?variant=dark&roadmaps=full-stack%2Cux-design%2Ctypescript%2Csoftware-architect)](https://roadmap.sh)
 
 ### My Tools 🛠
 ![](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
