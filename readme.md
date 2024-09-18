@@ -1,3 +1,5 @@
+[![roadmap.sh](https://roadmap.sh/card/wide/64b5a7510a49b0be0ed6ea0b?variant=dark&roadmaps=full-stack%2Ctypescript%2Csoftware-design-architecture%2Cblockchain)](https://roadmap.sh)
+
 
 ### 🙋🏻‍♂️ Hi, I'm Vishnu Shon.
 I'd love to share a bit about myself:
@@ -6,11 +8,9 @@ I'd love to share a bit about myself:
  - Developed and scaled StayBook (a booking engine business) to **200+** hotels and **20,000** active customers.
  - SDE summer intern at **MathWorks**, audited Simulink 3D Editor. 
  - Even teamed up with the **Indian Government** for a GIS software (long story...)
- - 
+
 **I like user needs more than software vitamins.**
 P.S. Check out my work on www.vishnushon.com 
-
-[![roadmap.sh](https://roadmap.sh/card/wide/64b5a7510a49b0be0ed6ea0b?variant=dark&roadmaps=full-stack%2Ctypescript%2Csoftware-architect%2Cdesign-system)](https://roadmap.sh)
 
 ### My Tools 🛠
 ![](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
