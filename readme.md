@@ -10,7 +10,7 @@ I'd love to share a bit about myself:
 **I like user needs more than software vitamins.**
 P.S. Check out my work on www.vishnushon.com 
 
-[![roadmap.sh](https://roadmap.sh/card/wide/64b5a7510a49b0be0ed6ea0b?variant=dark&roadmaps=full-stack%2Cux-design%2Ctypescript%2Csoftware-architect)](https://roadmap.sh)
+[![roadmap.sh](https://roadmap.sh/card/wide/64b5a7510a49b0be0ed6ea0b?variant=dark&roadmaps=full-stack%2Ctypescript%2Csoftware-architect%2Cdesign-system)](https://roadmap.sh)
 
 ### My Tools 🛠
 ![](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
@@ -26,7 +26,6 @@ P.S. Check out my work on www.vishnushon.com
 ![](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)
 ![](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 ![](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
-
 
 ![](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
