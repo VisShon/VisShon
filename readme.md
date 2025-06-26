@@ -1,6 +1,3 @@
-[![roadmap.sh](https://roadmap.sh/card/wide/64b5a7510a49b0be0ed6ea0b?variant=dark&roadmaps=full-stack%2Ctypescript%2Csoftware-design-architecture%2Cblockchain)](https://roadmap.sh)
-
-
 ### 🙋🏻‍♂️ Hi, I'm Vishnu Shon  
 A Full Stack Engineer  
 
