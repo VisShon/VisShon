@@ -6,12 +6,12 @@ Check out my work on [www.vishnushon.com](https://www.vishnushon.com)
 ---
 
 ### 🚀 Here’s a peek at what I have done:
-- 🧑🏻‍💻 Working remotely at **BeenVerified** (New York), shipping their **platform V2**.
+- 🧑🏻‍💻 Working remotely at [**BeenVerified**](https://www.beenverified.com/) (New York), shipping their **platform V2**.
 - 🚀 Founding dev at [**Respct**](https://www.crunchbase.com/organization/respct) — co-built the product which raised a **$1M seed** via [Tachyon](https://tachyon.xyz/alumni/) & [PolygonLEAP](https://inc42.com/buzz/meet-the-31-web3-startups-that-are-part-of-first-cohort-of-polygonleap-2021/).
-- 🏨 Built **StayBook** (booking engine + channel manager) — scaled to **500+ hotels** and **40K users** across India.
+- 🏨 Built [**StayBook**](https://staybook.in/) (booking engine + channel manager) — scaled to **500+ hotels** and **40K users** across India.
 - 🏆 Developed winning projects at [Ethereum India '22](https://ethglobal.com/showcase/alkynefi-nampv) and [Polygon BUIDL IT '22](https://devpost.com/software/reverelabs-dzpu4k).
 - 🗺️ Built **GIS software** for the **Govt. of India** with researchers from **IIT Bombay**.
-- 🎨 Founded **1Pixel** — North India’s largest **student-run design conference**.
+- 🎨 Founded [**1Pixel**](https://www.instagram.com/1px.descon/?hl=en) — North India’s largest **student-run design conference**.
 
 ---
 
