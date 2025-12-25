@@ -1,7 +1,5 @@
 ### 🙋🏻‍♂️ Hi, I’m Vishnu 
-A Design Engineer,
-
-I design interfaces and write the code behind them.
+A Design Engineer, I design interfaces and write the code behind them.
 You can find my work at:
 
 [vishnushon.com](https://www.vishnushon.com) · [behance.net/visshon](https://www.behance.net/visshon)
