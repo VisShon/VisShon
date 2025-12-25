@@ -1,7 +1,8 @@
 ### 🙋🏻‍♂️ Hi, I’m Vishnu — Design Engineer,
-I design interfaces and write the code behind them.
 
+I design interfaces and write the code behind them.
 You can find my work at:
+
 [vishnushon.com](https://www.vishnushon.com) · [behance.net/visshon](https://www.behance.net/visshon)
 
 ### 🚀 What I’ve shipped
@@ -27,5 +28,6 @@ You can find my work at:
 - Background in **Human–Computer Interaction**, shaping how I think about interfaces and systems.
 - Comfortable owning work **end-to-end**, from early design decisions to production code.
 - I think in **systems**, not just screens.
+
 
 ![](./assets/profile-gitblock.svg)
