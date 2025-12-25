@@ -1,4 +1,5 @@
-### 🙋🏻‍♂️ Hi, I’m Vishnu — Design Engineer,
+### 🙋🏻‍♂️ Hi, I’m Vishnu 
+A Design Engineer,
 
 I design interfaces and write the code behind them.
 You can find my work at:
@@ -6,9 +7,9 @@ You can find my work at:
 [vishnushon.com](https://www.vishnushon.com) · [behance.net/visshon](https://www.behance.net/visshon)
 
 ### 🚀 What I’ve shipped
-- **[BeenVerified](https://www.beenverified.com/) (NY)** — Designed and built core consumer surfaces while shipping platform V2 features end-to-end.
-- **[Respct](https://www.crunchbase.com/organization/respct)** — Founding engineer on a social NFT product that raised a **$1M seed round** via **Tachyon** and **Polygon LEAP**.
-- **[StayBook](https://staybook.in/)** — Built and scaled a booking engine used by **500+ hotels** and **40K+ users** across India.
+- **[BeenVerified](https://www.beenverified.com/) (NY)**: Designed and built core consumer surfaces while shipping platform V2 features end-to-end.
+- **[Respct](https://www.crunchbase.com/organization/respct)**: Founding engineer on a social NFT product that raised a **$1M seed round** via **Tachyon** and **Polygon LEAP**.
+- **[StayBook](https://staybook.in/)**: Built and scaled a booking engine used by **500+ hotels** and **40K+ users** across India.
 
 ### 🛠 Engineering
 ![](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white)
