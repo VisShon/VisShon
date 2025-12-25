@@ -1,57 +1,31 @@
-### 🙋🏻‍♂️ Hi, I'm Vishnu Shon  
-A Full Stack Engineer  
+### 🙋🏻‍♂️ Hi, I’m Vishnu — Design Engineer,
+I design interfaces and write the code behind them.
 
-Check out my work on [www.vishnushon.com](https://www.vishnushon.com)
+You can find my work at:
+[vishnushon.com](https://www.vishnushon.com) · [behance.net/visshon](https://www.behance.net/visshon)
 
----
+### 🚀 What I’ve shipped
+- **[BeenVerified](https://www.beenverified.com/) (NY)** — Designed and built core consumer surfaces while shipping platform V2 features end-to-end.
+- **[Respct](https://www.crunchbase.com/organization/respct)** — Founding engineer on a social NFT product that raised a **$1M seed round** via **Tachyon** and **Polygon LEAP**.
+- **[StayBook](https://staybook.in/)** — Built and scaled a booking engine used by **500+ hotels** and **40K+ users** across India.
 
-### 🚀 Here’s a peek at what I have done:
-- 🧑🏻‍💻 Working remotely at [**BeenVerified**](https://www.beenverified.com/) (New York), shipping their **platform V2**.
-- 🚀 Founding dev at [**Respct**](https://www.crunchbase.com/organization/respct) — co-built the product which raised a **$1M seed** via [Tachyon](https://tachyon.xyz/alumni/) & [PolygonLEAP](https://inc42.com/buzz/meet-the-31-web3-startups-that-are-part-of-first-cohort-of-polygonleap-2021/).
-- 🏨 Built [**StayBook**](https://staybook.in/) (booking engine + channel manager) — scaled to **500+ hotels** and **40K users** across India.
-- 🏆 Developed winning projects at [Ethereum India '22](https://ethglobal.com/showcase/alkynefi-nampv) and [Polygon BUIDL IT '22](https://devpost.com/software/reverelabs-dzpu4k).
-- 🗺️ Built **GIS software** for the **Govt. of India** with researchers from **IIT Bombay**.
-- 🎨 Founded [**1Pixel**](https://www.instagram.com/1px.descon/?hl=en) — North India’s largest **student-run design conference**.
-
----
-
-### 🧠 Bonus:  
-I hold a **minor degree in Human-Computer Interactions** —  
-**Building with empathy and shipping with intent.**
-
-
-### 🛠 My Tools
-![](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
-![](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![](https://img.shields.io/badge/wezterm-4E49EE?style=for-the-badge&logo=wezterm&logoColor=white)
-
-### ⚙️ Languages & Frameworks
+### 🛠 Engineering
 ![](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white)
 ![](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
 ![](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 ![](https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
 ![](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 
-### 🧠 Databases & DevOps
-![](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white)
-![](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-![](https://img.shields.io/badge/rabbitmq-%23FF6600.svg?&style=for-the-badge&logo=rabbitmq&logoColor=white)
-![](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
-![](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
-![](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)
-![](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
-
-### 🎨 UI/UX & Product
+### 🎨 Product & Design
 ![](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-![](https://img.shields.io/badge/Google%20Analytics-E37400?style=for-the-badge&logo=google%20analytics&logoColor=white)
-![](https://img.shields.io/badge/hotjar-FD3A5C?style=for-the-badge&logo=hotjar&logoColor=white)
+![](https://img.shields.io/badge/Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white)
+![](https://img.shields.io/badge/Framer%20Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+![](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
+### 🧠 Bonus
+- Background in **Human–Computer Interaction**, shaping how I think about interfaces and systems.
+- Comfortable owning work **end-to-end**, from early design decisions to production code.
+- I think in **systems**, not just screens.
 
 ![](./assets/profile-gitblock.svg)
-
