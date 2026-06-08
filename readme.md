@@ -5,7 +5,7 @@ You can find my work at:
 
 ### 🚀 What I’ve shipped
 - **[BeenVerified](https://www.beenverified.com/) (NY)**: Designed and built core consumer surfaces while shipping platform V2 features end-to-end.
-- **[OpusCo](https://www.opusco.dev/) Leading a creative engineering studio building commerce infrastructure and custom platforms for growing businesses.
+- **[OpusCo](https://www.opusco.dev/)** Leading a creative engineering studio building commerce infrastructure and custom platforms for growing businesses.
 - **[Respct](https://www.crunchbase.com/organization/respct)**: Founding engineer on a social NFT product that raised a **$1M seed round** via **Tachyon** and **Polygon LEAP**.
 - **[StayBook](https://staybook.in/)**: Built and scaled a booking engine used by **500+ hotels** and **40K+ users** across India.
 
