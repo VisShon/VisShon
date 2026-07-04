@@ -9,6 +9,9 @@ You can find my work at:
 - **[Respct](https://www.crunchbase.com/organization/respct)**: Founding engineer on a social NFT product that raised a **$1M seed round** via **Tachyon** and **Polygon LEAP**.
 - **[StayBook](https://staybook.in/)**: Built and scaled a booking engine used by **500+ hotels** and **40K+ users** across India.
 
+![](./assets/profile-gitblock.svg)
+
+
 ### 🛠 Engineering
 ![](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
 ![](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
@@ -23,10 +26,11 @@ You can find my work at:
 ![](https://img.shields.io/badge/Framer%20Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 ![](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
+
 ### 🧠 Bonus
 - Background in **Human–Computer Interaction**, shaping how I think about interfaces and systems.
 - Comfortable owning work **end-to-end**, from early design decisions to production code.
 - I think in **systems**, not just screens.
 
 
-![](./assets/profile-gitblock.svg)
+[![Contribution Stats](https://readme-contribution-stats.aman-kumar-connect.workers.dev/?type=repos&username=VisShon&limit=6)](https://github.com/amankumarconnect/readme-contribution-stats)
