@@ -9,6 +9,8 @@ You can find my work at:
 - **[Respct](https://www.crunchbase.com/organization/respct)**: Founding engineer on a social NFT product that raised a **$1M seed round** via **Tachyon** and **Polygon LEAP**.
 - **[StayBook](https://staybook.in/)**: Built and scaled a booking engine used by **500+ hotels** and **40K+ users** across India.
 
+
+
 ![](./assets/profile-gitblock.svg)
 
 
@@ -31,6 +33,3 @@ You can find my work at:
 - Background in **Human–Computer Interaction**, shaping how I think about interfaces and systems.
 - Comfortable owning work **end-to-end**, from early design decisions to production code.
 - I think in **systems**, not just screens.
-
-
-[![Contribution Stats](https://readme-contribution-stats.aman-kumar-connect.workers.dev/?type=repos&username=VisShon&limit=6)](https://github.com/amankumarconnect/readme-contribution-stats)
