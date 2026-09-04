@@ -1,6 +1,7 @@
 ### Hi, I’m Vishnu
 
 Full-stack product engineer building and scaling products across **consumer, commerce and AI**.
+
 You can find my work at:
 [Studio](https://www.opusco.dev) · [Portfolio](https://www.vishnushon.com)
 
